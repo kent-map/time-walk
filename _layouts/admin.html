@@ -1,0 +1,50 @@
+---
+layout: base
+---
+
+<style>
+  h1 {
+    font-size: 2rem;
+  }
+</style>
+
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  {% assign all_tags = "" | split: "" %}
+  {% for article in site.admin %}
+    {% if article.tags %}
+      {% assign all_tags = all_tags | concat: article.tags %}
+    {% endif %}
+  {% endfor %}
+  {% assign unique_tags = all_tags | uniq | sort %}
+
+    <hr style="margin:0;"/>
+    <div class="site-tags" style="display: flex; padding: 6px; border-radius: 5px; flex-wrap: wrap;">
+      <span style="font-weight:500;">Tags:&nbsp;</span>
+      {% assign sortedtags = unique_tags %}
+      {% for tag in sortedtags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},&nbsp;{% endif %}
+      {% endfor %}
+    </div>
+    <hr style="margin:0;"/><br/>
+
+    {% assign all_articles = site.admin | where_exp:"item", "item.relative_path != '_admin/index.md'" | sort: "title" %}
+    {%- if all_articles.size > 0 -%}
+      <ul class="post-list">
+        {% for article in all_articles %}
+          <li>
+            {% include post_list_item.html item=article %}
+          </li>
+        {% endfor %}
+      </ul>
+    {%- endif -%}
+
+  </article>
+
+<script>
+  let maxWidth = '{{ page.max-width }}';
+</script>

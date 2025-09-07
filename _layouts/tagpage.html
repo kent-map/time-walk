@@ -1,0 +1,30 @@
+---
+layout: base
+---
+
+<style>
+  h1 {
+    font-size: 2rem;
+  }
+</style>
+
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  <hr/>
+
+  {% assign tagged_articles = site.articles | where_exp: "post", "post.tags contains page.tag" | sort: "title" %}
+  {%- if tagged_articles.size > 0 -%}
+    <ul class="post-list">
+      {% for article in tagged_articles %}
+        <li>
+          {% include post_list_item.html item=article %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</article>

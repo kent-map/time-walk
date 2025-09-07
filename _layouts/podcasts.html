@@ -1,0 +1,47 @@
+---
+layout: base
+---
+
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <hr/>
+  
+  {% capture tags %}
+    {% for tag in site.tags %}
+      {{ tag[0] }}
+    {% endfor %}
+  {% endcapture %}
+
+  {% assign num_tags = tags | number_of_words %}    
+  {%- if num_tags > 0 -%}
+    <hr style="margin:0;"/>
+    <div class="site-tags" style="display: flex; background-color: #f8f8f8; padding: 6px; border-radius: 5px; flex-wrap: wrap;">
+      <span style="font-weight:500;">Tags:&nbsp;</span>
+      {% assign sortedtags = tags | split:' ' | sort %}
+      {% for tag in sortedtags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},&nbsp;{% endif %}
+      {% endfor %}
+    </div>
+    <hr style="margin:0;"/><br/>
+  {%- endif -%}
+
+  {% assign posts = site.podcasts | where_exp:"item", "item.relative_path != '_podcasts/index.md'" %}
+    {%- if podcasts.size > 0 -%}
+      <ul class="post-list">
+        {% for podcast in podcasts %}
+          <li>
+            {% include post_list_item.html item=podcast %}
+          </li>
+        {% endfor %}
+      </ul>
+    {%- endif -%}
+
+  </article>
+
+<script>
+  let maxWidth = '{{ page.max-width }}';
+</script>
