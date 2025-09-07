@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
+  <style>
+    .acknowledgement {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .acknowledgement img {
+      height: 40px;
+      width: auto;
+    }
+  </style>
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -145,9 +159,16 @@
       <div class="wrapper">
     
         <div class="footer-col-wrapper">
+
           <div class="footer-col">
-          
-          {%- if page.layout == 'content' %}
+            <div class="acknowledgement">
+              <img src="{{ '/assets/images/heritage.jpg' | relative_url }}" alt="Site logo">
+              <img src="{{ '/assets/images/cccu3.jpg' | relative_url }}" alt="Site logo">
+              <img src="{{ '/assets/images/thanet.jpg' | relative_url }}" alt="Site logo">
+              <img src="{{ '/assets/images/cropped-Deal-Museum-round-logo.jpg' | relative_url }}" alt="Site logo">
+              <img src="{{ '/assets/images/sandwich logo.jpg' | relative_url }}" alt="Site logo">
+            </div>
+
             {%- if site.show_rss_feed %}
               <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
                 <svg class="svg-icon orange">
@@ -159,11 +180,10 @@
                 </svg><span>Subscribe</span>
               </a>
             {%- endif %}
-          {%- endif %}
-
           </div>
+
           <div class="footer-col">
-            <p>{{ site.description | escape }}</p>
+            <p style="text-align: right;;">{{ site.description | escape }}</p>
 
             {%- if site.show_github_link %}
               <p class="github-link">

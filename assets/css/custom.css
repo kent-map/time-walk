@@ -39,6 +39,18 @@ header.post-header {
 :is(.post-title, .post-content) h5 { font-size: 1.125rem; }
 :is(.post-title, .post-content) h6 { font-size: 1.125rem; }
 
+.footer-col-wrapper {
+  align-items: center;
+}
+.footer-col {
+  width: unset;
+}
+@media screen and (min-width: 600px) {
+  .footer-col:last-child {
+      margin-left: auto;
+  }
+}
+
 /***** Post List Styling /*****/
 .post-meta {
   font-size: 1rem;
