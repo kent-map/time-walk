@@ -18,8 +18,8 @@ nav_pages:
   - index.md
   - _articles/index.md
   # - _podcasts/index.md
-  # - _admin/index.md
-  # - _examples/index.md
+  - _admin/index.md
+  - _examples/index.md
   - about/index.md
   - contact.md
 
