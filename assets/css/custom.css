@@ -44,6 +44,7 @@ header.post-header {
 }
 .footer-col {
   width: unset;
+  margin-bottom: 0;;
 }
 .footer-col img {
   width: 1.4em;

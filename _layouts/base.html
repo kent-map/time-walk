@@ -2,16 +2,21 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   <style>
+    .footer-col {
+      margin-bottom: 0;
+    }
     .footer-col .acknowledgement {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 1em;
       align-items: center;
-      margin-bottom: 10px;
     }
     .footer-col .acknowledgement img {
-      height: 40px;
+      height: 3em;
       width: auto;
+    }
+    .footer-col p {
+      margin: 0;
     }
   </style>
 
@@ -162,11 +167,11 @@
 
           <div class="footer-col">
             <div class="acknowledgement">
-              <img src="{{ '/assets/images/heritage.jpg' | relative_url }}" alt="Site logo">
-              <img src="{{ '/assets/images/cccu3.jpg' | relative_url }}" alt="Site logo">
-              <img src="{{ '/assets/images/thanet.jpg' | relative_url }}" alt="Site logo">
-              <img src="{{ '/assets/images/cropped-Deal-Museum-round-logo.jpg' | relative_url }}" alt="Site logo">
-              <img src="{{ '/assets/images/sandwich logo.jpg' | relative_url }}" alt="Site logo">
+              <a href="https://www.heritagefund.org.uk/" target="_blank"><img src="{{ '/assets/images/heritage.jpg' | relative_url }}" alt="Site logo"></a>
+              <a href="https://www.canterbury.ac.uk/" target="_blank"><img src="{{ '/assets/images/cccu3.jpg' | relative_url }}" alt="Site logo"></a>
+              <a href="https://www.thanet.gov.uk/" target="_blank"><img src="{{ '/assets/images/thanet.jpg' | relative_url }}" alt="Site logo"></a>
+              <a href="https://dealmuseum.uk/" target="_blank"><img src="{{ '/assets/images/cropped-Deal-Museum-round-logo.jpg' | relative_url }}" alt="Site logo"></a>
+              <a href="https://sandwichguildhallmuseum.co.uk/" target="_blank"><img src="{{ '/assets/images/sandwich logo.jpg' | relative_url }}" alt="Site logo"></a>
             </div>
 
             {%- if site.show_rss_feed %}
@@ -185,7 +190,7 @@
           <div class="footer-col">
             <!-- <p style="text-align: right;">{{ site.description | markdownify }}</p> -->
             {{ site.platform | markdownify }}
-            
+
             {%- if site.show_github_link %}
               <p class="github-link">
                 <a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}">
