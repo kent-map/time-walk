@@ -16,7 +16,7 @@ nav_pages:
   - _pages/index.md
   - _articles/index.md
   # - _podcasts/index.md
-  - _pages/about.md
+  - _pages/about/index.md
   # - _pages/contact.md
   # - _admin/index.md
   # - _examples/index.md
