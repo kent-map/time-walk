@@ -1,5 +1,5 @@
 html {
-  font-size: 18px; /* default is usually 16px */
+  font-size: 16px; /* default is usually 16px */
 }
 
 body {
@@ -22,6 +22,9 @@ body {
   display: flex;
   align-items: center;
   gap: 0.4em;
+  line-height: 1;
+  padding: 0.5em 0;
+  font-size: clamp(1rem, 1.5vw + 1rem, 3rem);
 }
 
 .site-title img {
@@ -38,6 +41,12 @@ header.post-header {
 :is(.post-title, .post-content) h4 { font-size: 1.25rem; }
 :is(.post-title, .post-content) h5 { font-size: 1.125rem; }
 :is(.post-title, .post-content) h6 { font-size: 1.125rem; }
+
+
+.post-content h1 { 
+  font-size: clamp(1rem, 2vw + 1rem, 3rem);
+  margin-top: 0; 
+}
 
 .footer-col-wrapper {
   align-items: center;
@@ -134,6 +143,9 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 0.5em;
+  }
+  .card-grid > sl-card {
+    margin-top: 2em;
   }
 }
 

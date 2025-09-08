@@ -17,7 +17,7 @@ This framework combines a few tools and services to make it easy to build and ma
 
 ---
 
-## How the pieces fit together
+**How the pieces fit together**
 
     Markdown content  +  Juncture components
                 │
@@ -64,21 +64,8 @@ A **commit** is a “save point.” Every change you make to a file is stored as
 This framework uses the **Kramdown** Markdown processor, which is the default for GitHub Pages.  
 Kramdown is mostly compatible with “basic Markdown” but adds extra features, including:  
 
-- **Attribute blocks** – you can attach attributes (like CSS classes, IDs, or alignment) directly to elements. Example:  
-
-  ```markdown
-  ## Heading Title
-  {: .fancy-heading }
-  ```
-
-- **Footnotes** – you can include footnotes in your text and they will render at the bottom of the page. Example:
-
-  ```markdown
-  This is a sentence with a footnote.[^1]
-
-  [^1]: This is the footnote text.
-  ```
-
+- *Attribute blocks* – allows you to attach attributes (like CSS classes, IDs, or alignment) directly to elements
+- *Footnotes* – you can include footnotes in your text and they will render at the bottom of the page.
 ---
 
 ### Jekyll
@@ -87,6 +74,8 @@ Kramdown is mostly compatible with “basic Markdown” but adds extra features,
 
 #### Collection
 A **collection** groups similar content items, such as articles, events, or stories.  
+
+This site template comes pre-configured with 3 collections: *articles*, *admin*, and *examples*.  Collections can be easily added, removed, and renamed as needed.  In this pre-configured setup the *articles* collection is where the site content would reside.  The *admin* and *examples* collections would typically be removed from site navigation when the site goes live.
 
 #### Post
 A **post** is a single piece of content, such as an article. Posts are written in Markdown and stored in a collection.  
