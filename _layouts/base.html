@@ -2,14 +2,14 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   <style>
-    .acknowledgement {
+    .footer-col .acknowledgement {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       align-items: center;
       margin-bottom: 10px;
     }
-    .acknowledgement img {
+    .footer-col .acknowledgement img {
       height: 40px;
       width: auto;
     }
@@ -38,7 +38,7 @@
       <div class="wrapper">
 
         <a class="site-title" rel="author" href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Site logo"> {{ site.title | escape }}</a>
-        
+      
         {% capture nav_items_string %}
           {% for nav_path in site.nav_pages %}
             {% assign nav_item = nil %}
@@ -183,8 +183,9 @@
           </div>
 
           <div class="footer-col">
-            <p style="text-align: right;;">{{ site.description | escape }}</p>
-
+            <!-- <p style="text-align: right;">{{ site.description | markdownify }}</p> -->
+            {{ site.platform | markdownify }}
+            
             {%- if site.show_github_link %}
               <p class="github-link">
                 <a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}">

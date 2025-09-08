@@ -14,7 +14,7 @@ Let’s Do The Time Walk Again! Exploring the East Kent Coast Through Digital He
 
 The National Lottery Heritage Fund is the largest funder for the UK’s heritage. Using money raised by National Lottery players we support projects that connect people and communities to heritage. Our vision is for heritage to be valued, cared for and sustained for everyone, now and in the future. From historic buildings, our industrial legacy and the natural environment, to collections, traditions, stories and more. Heritage can be anything from the past that people value and want to pass on to future generations. We believe in the power of heritage to ignite the imagination, offer joy and inspiration, and to build pride in place and connection to the past.
 
-![](TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png)
+![](TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png){: style="float:left;height:10em;width:10em;margin:0 1em 0 0;"}
 
 
 # Project Team 

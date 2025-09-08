@@ -45,10 +45,17 @@ header.post-header {
 .footer-col {
   width: unset;
 }
+.footer-col img {
+  width: 1.4em;
+  height: 1.4em;
+}
 @media screen and (min-width: 600px) {
   .footer-col:last-child {
       margin-left: auto;
   }
+}
+.platform {
+  color: red;
 }
 
 /***** Post List Styling /*****/
