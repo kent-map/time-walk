@@ -1,11 +1,6 @@
 ---
-title: Overview
+title: 1. Overview
 description: Overview of a Juncture-powered website.
-author: 
-date: 2025-01-01
-tags: admin
-thumbnail: 
-permalink: /admin/overview
 layout: post
 published: true
 ---
@@ -20,31 +15,27 @@ This framework combines a few tools and services to make it easy to build and ma
 - **Markdown** – a simple way of writing content using plain text.  
 - **Juncture** – adds interactive features and enhancements to your content.  
 
----
+```mermaid
+flowchart LR
+    subgraph Content
+        A[Markdown Files] -->|written in plain text| C[Jekyll]
+        B[Juncture Components] -->|interactive features| C
+    end
 
-## How the pieces fit together
+    subgraph GitHub
+        D[Repository] --> E[Commit/Branch]
+        E --> F[GitHub Pages]
+    end
 
-    Markdown content  +  Juncture components
-                │
-                ▼
-             Jekyll build
-                │
-                ▼
-       GitHub Repository & Branches
-                │
-                ▼
-           GitHub Pages
-                │
-                ▼
-            Live Website
-
----
+    C --> F
+    F --> G[(Live Website)]
+```
 
 ## Core Concepts
 
 ### GitHub
 
-GitHub is an online service for storing and managing content. Think of it like a library or filing cabinet for your website materials.  
+[GitHub](https://github.com/) is an online service for storing and managing content. Think of it like a library or filing cabinet for your website materials.  
 
 #### Repository
 A **repository** (often called a *repo*) is a container for all the files related to your website—text, images, and settings.  
@@ -62,13 +53,33 @@ A **commit** is a “save point.” Every change you make to a file is stored as
 
 ### Markdown
 
-**Markdown** is a simple text format used for writing content. It looks like plain text but includes easy symbols for formatting, like `#` for headings, `*` for bullet points, and `**bold**` for bold text.  
+**[Markdown](https://www.markdownguide.org/)** is a simple text format used for writing content. It looks like plain text but includes easy symbols for formatting, like `#` for headings, `*` for bullet points, and `**bold**` for bold text.  
+
+#### Markdown Flavor Used Here
+
+This framework uses the **Kramdown** Markdown processor, which is the default for GitHub Pages.  
+Kramdown is mostly compatible with “basic Markdown” but adds extra features, including:  
+
+- **Attribute blocks** – you can attach attributes (like CSS classes, IDs, or alignment) directly to elements. Example:  
+
+  ```markdown
+  ## Heading Title
+  {: .fancy-heading }
+  ```
+
+- **Footnotes** – you can include footnotes in your text and they will render at the bottom of the page. Example:
+
+  ```markdown
+  This is a sentence with a footnote.[^1]
+
+  [^1]: This is the footnote text.
+  ```
 
 ---
 
 ### Jekyll
 
-**Jekyll** is the tool that builds your website. It takes Markdown files, combines them with layouts and settings, and outputs the final web pages.  
+**[Jekyll](https://jekyllrb.com/)** is the tool that builds your website. It takes Markdown files, combines them with layouts and settings, and outputs the final web pages.  
 
 #### Collection
 A **collection** groups similar content items, such as articles, events, or stories.  
@@ -98,7 +109,7 @@ A **theme** is a collection of layouts, styles, and settings that define the loo
 
 ### Juncture
 
-**Juncture** is a component library that adds interactive elements to your website. With Juncture, you can add features like image zooming, side-by-side comparisons, maps, and timelines—all from inside Markdown. This allows you to go beyond plain text and images to create engaging, interactive pages.  
+**[Juncture](www.juncture-digital.io)** is a component library that adds interactive elements to your website. With Juncture, you can add features like image zooming, side-by-side comparisons, maps, and timelines—all from inside Markdown. This allows you to go beyond plain text and images to create engaging, interactive pages.  
 
 ---
 
@@ -114,19 +125,3 @@ These terms aren’t essential at the beginning, but you may encounter them:
 - **Liquid** – the template language Jekyll uses for layouts; you may see snippets like `{{ title }}` in files.  
 - **Includes** – reusable snippets of content, like a footer or navigation bar.  
 - **Data Files** – YAML/JSON/CSV files that store structured information (like lists of events) separately from posts.  
-
-```mermaid
-flowchart LR
-    subgraph Content
-        A[Markdown Files] -->|written in plain text| C[Jekyll]
-        B[Juncture Components] -->|interactive features| C
-    end
-
-    subgraph GitHub
-        D[Repository] --> E[Commit/Branch]
-        E --> F[GitHub Pages]
-    end
-
-    C --> F
-    F --> G[(Live Website)]
-```

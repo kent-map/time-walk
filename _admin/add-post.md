@@ -1,11 +1,6 @@
 ---
-title: Adding a new post
-description: How to add a new post to the site.
-author: 
-date: 2025-01-01
-tags: admin
-thumbnail: 
-permalink: /admin/add-post
+title: 2. Adding a new post
+description: How to add a new post to a collection.
 layout: post
 published: true
 ---
