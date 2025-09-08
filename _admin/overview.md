@@ -15,21 +15,25 @@ This framework combines a few tools and services to make it easy to build and ma
 - **Markdown** – a simple way of writing content using plain text.  
 - **Juncture** – adds interactive features and enhancements to your content.  
 
-```mermaid
-flowchart LR
-    subgraph Content
-        A[Markdown Files] -->|written in plain text| C[Jekyll]
-        B[Juncture Components] -->|interactive features| C
-    end
+---
 
-    subgraph GitHub
-        D[Repository] --> E[Commit/Branch]
-        E --> F[GitHub Pages]
-    end
+## How the pieces fit together
 
-    C --> F
-    F --> G[(Live Website)]
-```
+    Markdown content  +  Juncture components
+                │
+                ▼
+             Jekyll build
+                │
+                ▼
+       GitHub Repository & Branches
+                │
+                ▼
+           GitHub Pages
+                │
+                ▼
+            Live Website
+
+---
 
 ## Core Concepts
 
