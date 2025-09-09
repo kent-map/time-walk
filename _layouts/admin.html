@@ -22,6 +22,7 @@ layout: base
   {% endfor %}
   {% assign unique_tags = all_tags | uniq | sort %}
 
+  {%- if unique_tags.size > 0 -%}
     <hr style="margin:0;"/>
     <div class="site-tags" style="display: flex; padding: 6px; border-radius: 5px; flex-wrap: wrap;">
       <span style="font-weight:500;">Tags:&nbsp;</span>
@@ -31,19 +32,30 @@ layout: base
       {% endfor %}
     </div>
     <hr style="margin:0;"/><br/>
+  {% endif %}
 
-    {% assign all_articles = site.admin | where_exp:"item", "item.relative_path != '_admin/index.md'" | sort: "title" %}
-    {%- if all_articles.size > 0 -%}
-      <ul class="post-list">
-        {% for article in all_articles %}
-          <li>
-            {% include post_list_item.html item=article %}
-          </li>
-        {% endfor %}
-      </ul>
-    {%- endif -%}
+  {%- comment -%}
+  Grab all docs in the _admin collection
+  {%- endcomment -%}
+  {% assign admin_docs = site.admin | where_exp:"item", "item.relative_path != '_admin/index.md'" | sort: "title" %}
 
-  </article>
+  {%- comment -%}
+  Split into those with an order defined and those without
+  {%- endcomment -%}
+  {% assign with_order    = admin_docs | where_exp: "d", "d.order" | sort: "order" %}
+  {% assign without_order = admin_docs | where_exp: "d", "d.order == nil" | sort: "title" %}
+
+  {% assign ordered = with_order | concat: without_order %}
+
+  <ul class="post-list">
+    {% for article in ordered %}
+      <li>
+        {% include post_list_item.html item=article %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</article>
 
 <script>
   let maxWidth = '{{ page.max-width }}';

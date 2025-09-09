@@ -1,6 +1,7 @@
 ---
-title: 1. Overview
+title: Overview
 description: Overview of a Juncture-powered website.
+order: 1
 layout: post
 published: true
 ---
