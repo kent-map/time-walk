@@ -32,6 +32,12 @@ Both posts and pages use the same Markdown writing style, including Juncture enh
 
 ---
 
+## Getting Started
+
+Drag this link to your bookmarks bar - **[Juncture Preview](javascript:(function()%7Bwindow.location.href%3D%22https%3A%2F%2Fjuncture-digital.io%3Fgithub%3D%22%2Bdocument.URL%7D)()%3B)**{: .shadow style="padding:0.5em; border:1px solid #ccc;"}
+
+---
+
 ## Adding a New Post
 
 1. **Copy the post template**

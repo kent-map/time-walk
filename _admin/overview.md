@@ -67,6 +67,7 @@ Kramdown is mostly compatible with “basic Markdown” but adds extra features,
 
 - *Attribute blocks* – allows you to attach attributes (like CSS classes, IDs, or alignment) directly to elements
 - *Footnotes* – you can include footnotes in your text and they will render at the bottom of the page.
+
 ---
 
 ### Jekyll
