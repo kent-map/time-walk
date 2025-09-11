@@ -19,6 +19,7 @@ permalink: /
   font-size: clamp(2rem, 4vw + 1rem, 4rem);
   line-height: 1.1;
   margin-bottom: 0.5em;
+  margin-top: -2em;
 }
 
 .hero-overlay p {
@@ -26,6 +27,7 @@ permalink: /
   line-height: 1.3;
   max-width: 60ch; /* keeps text comfortably readable */
   margin: 0 auto;  /* center under heading */
+  padding: 0 2em;
 }
 </style>
 
