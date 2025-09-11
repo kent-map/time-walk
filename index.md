@@ -10,7 +10,7 @@ permalink: /
   min-height: clamp(320px, 60vh, 720px);
   background: 
     linear-gradient(to bottom right, rgba(0,0,0,.4), rgba(0,0,0,.2)),
-    url(/assets/images/hero-placeholder.png) center / cover no-repeat;
+    url(assets/images/hero-placeholder.png) center / cover no-repeat;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   color: white; text-align: center;
 }
@@ -22,7 +22,7 @@ permalink: /
 }
 
 .hero-overlay p {
-  font-size: clamp(1rem, 1.5vw + 2rem, 2rem);
+  font-size: clamp(1rem, 1.5vw + 2rem, 1.8rem);
   line-height: 1.3;
   max-width: 60ch; /* keeps text comfortably readable */
   margin: 0 auto;  /* center under heading */
