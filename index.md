@@ -6,6 +6,10 @@ permalink: /
 
 <style>
 
+.page-content {
+  padding-top: 50px;
+}
+
 .hero-overlay{
   min-height: clamp(320px, 60vh, 720px);
   background: 
