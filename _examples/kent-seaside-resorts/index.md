@@ -46,14 +46,14 @@ The bye-laws in these resorts were notoriously confusing, and not everyone adher
 
 The more restrained [Broadstairs](/dickens/broadstairs-19th-century) on the other hand, had 'a jolly old waterman, who paddles about apparently to pick up exhausted bathers. One morning as I was swimming past his boat he warned me back. “Any danger?” I asked. “Ladies,” he replied, ambiguously enough. It thus transpired that his function is to preserve a scientific frontier between the sexes.'
 
-`image src=wc:Venus%27s_bathing%2C_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg caption="Venus's bathing, a woman swimming in the sea at Margate" aspect=1.28`
+`image src=wc:Venus%27s_bathing%2C_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg caption="Venus's bathing, a woman swimming in the sea at Margate" aspect=1.28 .medium`
 
 ##
 {: .wrap}
 
 By the early decades of the 20th century visitors would be able to enjoy a body of holiday fiction set in the resort they were visiting: _Maggie of Margate: a Seaside Sensation,_ _The Passenger to 'Folkestone_, _The Beauty of Broadstairs_ and _A Girl of Thanet_, to name but a few.
 
-`image src=wc:Westcliff-on-Sea._%28NBY_439605%29.jpg" caption="Westcliff on Sea c.1900/1909" aspect=1.54`
+`image src=wc:Westcliff-on-Sea._%28NBY_439605%29.jpg" caption="Westcliff on Sea c.1900/1909" aspect=1.54 .medium`
 
 ## Bibliography
 

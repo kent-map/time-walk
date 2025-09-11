@@ -23,7 +23,7 @@ published: true
 
 Major rock formations include [West](image/zoomto/pct:10.94,27.88,21.05,30){: label="West Mitten Butte"} and [East Mitten](image/zoomto/pct:40.59,35.80,21.91,25){: label="East Mitten Butte"}  Buttes, [Merrick Butte](image/zoomto/pct:67.68,34.23,23.22,27), Hunts Mesa, Eagle Mesa, Sentinel Mesa, Brighams Tomb, Castle Rock, Stagecoach, Big Indian, Rain God Mesa, Spearhead Mesa, Mitchell Mesa, Mitchell Butte, Gray Whiskers, Elephant Butte, Camel Butte, Cly Butte, King-on-his-Throne, Rooster Rock, and Setting Hen. Another notable formation is [Totem Pole](Q7828304), a highly eroded butte remanent. The valley also includes large stone structures, such as the "Eye of the Sun".
 
-`image #image src=wc:Monument_Valley,_Utah,_USA.jpg caption="Monument Valley" .shadow aspect=1.50`
+`image #image src=wc:Monument_Valley,_Utah,_USA.jpg caption="Monument Valley" .shadow aspect=1.50 .medium`
 
 # Geography and geology
 

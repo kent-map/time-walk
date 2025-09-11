@@ -4,5 +4,4 @@ title: Examples
 permalink: /examples
 ---
 
-# Examples
-
+# Juncture Examples
