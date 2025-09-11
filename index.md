@@ -7,7 +7,7 @@ permalink: /
 <style>
 
 .page-content {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .hero-overlay{
@@ -17,6 +17,7 @@ permalink: /
     url(assets/images/hero-placeholder.png) center / cover no-repeat;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   color: white; text-align: center;
+  margin-top: 0;
 }
 
 .hero-overlay h2 {

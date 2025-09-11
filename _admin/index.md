@@ -4,6 +4,6 @@ title: Admin
 permalink: /admin
 ---
 
-# Site Administration HowTo Guides
+# Site Administration Guides
 
-Simple instruction for common site management tasks.
+Instruction for common site management tasks.
