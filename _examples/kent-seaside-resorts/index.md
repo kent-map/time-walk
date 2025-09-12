@@ -7,7 +7,7 @@ tags: sample
 thumbnail: "wc:Venus%27s_bathing%2C_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg"
 layout: post
 permalink: /examples/kent-seaside-resorts
-published: true
+published: false
 ---
 
 <style> p { font-size: 1.2em; } </style>
