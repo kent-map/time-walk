@@ -5,5 +5,3 @@ permalink: /examples
 ---
 
 # Juncture Examples
-
-haskdfhdaskdfhjasdkjdfhaskjfhsa
