@@ -6,6 +6,11 @@ layout: post
 published: true
 ---
 
+<style>
+  .bookmarklet {border: 1px solid #444; border-radius: 6px; padding: 3px 5px; color: #222; background-color: #eee; box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; font-weight: normal; }
+  .bookmarklet:hover {cursor: grab; text-decoration: none;}
+</style>
+
 # Managing Posts and Pages
 
 This guide explains how to add, edit, publish, rename, and delete **posts** and **pages** on your Jekyll site hosted with GitHub Pages. It also covers the differences between posts and pages, and how to write content using Juncture-enhanced Markdown.
@@ -34,9 +39,11 @@ Both posts and pages use the same Markdown writing style, including Juncture enh
 
 ## Getting Started
 
-Drag this link to your bookmarks bar - **[Juncture Preview](javascript:(function()%7Bwindow.location.href%3D%22https%3A%2F%2Fjuncture-digital.io%3Fgithub%3D%22%2Bdocument.URL%7D)()%3B)**
+Drag this bookmarklet to your bookmarks bar - **[Juncture Preview](javascript:(function()%7Bwindow.location.href%3D%22https%3A%2F%2Fjuncture-digital.io%3Fgithub%3D%22%2Bdocument.URL%7D)()%3B){: .bookmarklet}**
 
-This makes it convenient to view any GitHub hosted Markdown file as a Juncture-enabled web page.  Then, when you're on a GitHub page you can simply click the bookmark to view a Juncture-rendered version of the page.  This makes it easy to preview edits (after committing) when authoring a new page.
+When viewing a Markdown file on GitHub, click the bookmarklet to open a Juncture-rendered version of the page. This lets you preview edits immediately after committing. Without it, you may need to wait up to a minute (or longer) for the Jekyll build to complete, and unpublished posts will not be viewable at all.
+
+> Note: This only works with GitHub-hosted Markdown files. Using it on other pages will not produce a Juncture preview.
 
 ---
 
