@@ -33,7 +33,7 @@ The Town Council did its best to encourage the tourism by sponsoring band concer
 
 On the other hand there was never any shortage of public houses. Indeed Deal had more pubs per head of population than almost any other town in Kent. In 1872 there were 26 pubs and beerhouses on Beach Street alone - one every 32 yards.
 
-`image src=wc:Deal_Pier_%283738276711%29.jpg aspect=1.28 .medium`
+`image src=wc:Deal_Pier_%283738276711%29.jpg aspect=0.75.medium`
 
 ##
 {: .wrap}
