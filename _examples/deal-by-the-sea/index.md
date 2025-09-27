@@ -31,12 +31,12 @@ Deal could not hope to compete with the Thanet towns of [Margate](/19c/19c-marga
 
 The Town Council did its best to encourage the tourism by sponsoring band concerts and various kinds of entertainment at the end of the pier. But it was hard going at times. There was so much opposition to spending money on a new concert hall on the site of an old roller-skating rink that it was a full 30 years before the “Pavilion” was opened. Only five years later it had to be leased as a cinema.
 
-On the other hand there was never any shortage of public houses. Indeed Deal had more pubs per head of population than almost any other town in Kent. In 1872 there were 26 pubs and beerhouses on Beach Street alone - one every 32 yards.
-
 `image src=wc:Deal_Pier_%283738276711%29.jpg aspect=0.75.medium`
 
 ##
 {: .wrap}
+
+On the other hand there was never any shortage of public houses. Indeed Deal had more pubs per head of population than almost any other town in Kent. In 1872 there were 26 pubs and beerhouses on Beach Street alone - one every 32 yards.
 
 Deal pier was damaged and pulled down in the Second World War but a replacement was built in 1957 (according to Dover District Council “the first seaside pleasure pier of any size to be built since 1910”). Tourist guides promoted Deal as place for the discerning visitor, quirky but very rewarding.
 The same, many feel, remains true today.
