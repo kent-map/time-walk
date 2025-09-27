@@ -3,7 +3,7 @@ title: Kent Seaside Resorts
 description: Prof. Carolyn Oulton traces the begins of seaside holidays from their inland spa town origins and explores the health benefits are variable etiquettes of sea bathing.
 author: Professor Carolyn Oulton
 date: 2025-01-01
-tags: sample
+tags: Broadstairs
 thumbnail: "wc:Venus%27s_bathing%2C_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg"
 layout: post
 permalink: /examples/kent-seaside-resorts
@@ -20,7 +20,6 @@ published: true
 
 As the fashionable ‘water cure’ of spas such as Bath and Tunbridge Wells moved coastwards in the late eighteenth and nineteenth centuries, so a number of obscure fishing villages reinvented themselves as seaside resorts. Kent was an obvious beneficiary of this trend, with Gravesend in the Medway area and no fewer than seven resorts along the East coast gaining traction across the period: visitors were drawn in large numbers to [Broadstairs](Q922739), [Ramsgate](Q736439) and [Margate](Q618045) in Thanet, and to [Folkestone](Q375314) and [Dover](Q179224) in Sheppey. While [Whitstable](Q964785), Hythe and [Herne Bay](Q929286) never offered serious competition to the Sussex resorts of Brighton and Eastbourne, they too attracted a number of summer visitors.
 
-`image src=gh:kent-map/images/main/19c/Margate_from_the_Parade.jpg caption="Margate from the Parade" attribution="©The British Library Board c11802-06/Maps K.Top.17.4.e Images Online" aspect=1.38`
 `map #seaside-resorts center=51.2601,1.1824 zoom=9 caption="Kent Seaside Resorts"`
 `- marker qid=Q922739`
 `- marker qid=Q736439`
