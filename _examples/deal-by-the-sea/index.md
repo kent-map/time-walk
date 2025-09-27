@@ -22,21 +22,14 @@ The town of Deal first developed a mile or so inland. But in seventeenth century
 
 By the 1880s, with steam now replacing sail, boatman faced hard times. It was clear that the prosperity of the town would increasingly depend on attracting visitors and holiday makers.
 
-`map #seaside-resorts center=51.2601,1.1824 zoom=9 caption="Deal by the sea"`
-`- marker qid=Q922739`
-`- marker qid=Q736439`
-`- marker qid=Q618045`
-`- marker qid=Q375314`
-`- marker qid=Q179224`
-`- marker qid=Q964785`
-`- marker qid=Q929286`
+`image src=wc:The_Promenade%2C_Deal%2C_England-LCCN2002696655.jpg`
 
 ##
 {: .wrap}
 
 Deal could not hope to compete with the Thanet towns of Margate and Ramsgate in terms of the number of visitors it attracted. But many holiday makers were nonetheless drawn to the town during the summer to enjoy the sea breezes, the bustle of sea-front and the comings and goings of vessels in the Downs.
 
-`image src=wc:Queen_Victoria_as_a_young_woman%2C_by_F.W._Wilkin_Wellcome_L0012031.jpg caption="Queen Victoria as a young woman, by F.W. Wilkin" aspect=0.75 .small`
+`image src=wc:Deal_Pier_%283738276711%29.jpg aspect=0.75 .small`
 
 ##
 {: .wrap}
@@ -49,7 +42,7 @@ Deal pier was damaged and pulled down in the Second World War but a replacement 
 The same, many feel, remains true today.
 
 
-`image src=wc:Venus%27s_bathing%2C_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg caption="Venus's bathing, a woman swimming in the sea at Margate" aspect=1.28 .medium`
+`image src=wc:Pier-of-Deal-03.jpg caption="Deal Pier by Immanuel Giel" aspect=1.28 .medium`
 
 ## Bibliography
 
