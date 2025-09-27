@@ -12,7 +12,7 @@ published: true
 
 <style> p { font-size: 1.2em; } </style>
 
-`header title="Deal by the sea" author="Andrew Sargent" img=wc:Deal_Beach_from_Pier_(Looking_North)_(NBY_443008).jpg`
+`header title="Deal by the sea" author="Andrew Sargent" img=wc:Deal_Beach_from_Pier_(Looking_North)_(NBY_443007).jpg`
 
 #
 
