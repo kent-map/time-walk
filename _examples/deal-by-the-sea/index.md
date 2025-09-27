@@ -51,7 +51,7 @@ The same, many feel, remains true today.
 
 `image src=wc:Venus%27s_bathing%2C_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg caption="Venus's bathing, a woman swimming in the sea at Margate" aspect=1.28 .medium`
 
-Bibliography
+## Bibliography
 
 Andrew Sargent and Colin Varrall, From the Rink to the Regent: Seafront Entertainment in Deal since the 1870 (BooksEast, 2020) tells the story of entertainment on a site which had once been part of the Naval Yard.
 
