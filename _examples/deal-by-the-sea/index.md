@@ -22,12 +22,12 @@ The town of Deal first developed a mile or so inland. But in seventeenth century
 
 By the 1880s, with steam now replacing sail, boatman faced hard times. It was clear that the prosperity of the town would increasingly depend on attracting visitors and holiday makers.
 
-`image src=wc:The_Promenade%2C_Deal%2C_England-LCCN2002696655.jpg`
+`image src=wc:The_Promenade%2C_Deal%2C_England-LCCN2002696655.jpg aspect=0.75 .small`
 
 ##
 {: .wrap}
 
-Deal could not hope to compete with the Thanet towns of Margate and Ramsgate in terms of the number of visitors it attracted. But many holiday makers were nonetheless drawn to the town during the summer to enjoy the sea breezes, the bustle of sea-front and the comings and goings of vessels in the Downs.
+Deal could not hope to compete with the Thanet towns of [Margate](/19c/19c-margate) and [Ramsgate](/19c/19c-ramsgate) in terms of the number of visitors it attracted. But many holiday makers were nonetheless drawn to the town during the summer to enjoy the sea breezes, the bustle of sea-front and the comings and goings of vessels in the Downs.
 
 `image src=wc:Deal_Pier_%283738276711%29.jpg aspect=0.75 .small`
 
