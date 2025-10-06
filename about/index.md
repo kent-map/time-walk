@@ -60,7 +60,7 @@ Darran has worked in museums and heritage for thirty years. A curator and archiv
 
 ![](Placeholder.jpg)
 
-Lisa Redding is Co-Chair and Trustee of Deal Maritime and Local History Museum. She has a BA in English, Art History and Media from the University of Stirling.
+Lisa has been a Trustee of Deal Museum since 2021 and Co-Chair since 2022 and has found it an excellent way to get to know the history of Deal since moving there in 2018.  Now retired, she spent over 20 years in the Civil Service, working on European Structural Funds, managing grants programmes for the charitable sector and helping set up the London Funders membership body for major charity funders in London.  She then moved into working with charities themselves including managing volunteers at a community centre in southeast London, working as a fundraising consultant and as the Chief Executive of London’s voluntary sector umbrella body.  Bringing these experiences to the Museum has helped us achieve accreditation by the Arts Council, establish robust financial and administrative systems and develop a team of Trustees who are engaged and supportive.
 
 ## Millie Battershill
 
