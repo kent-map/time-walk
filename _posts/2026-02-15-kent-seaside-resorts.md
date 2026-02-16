@@ -3,7 +3,8 @@ title: Kent Seaside Resorts
 description: Prof. Carolyn Oulton traces the begins of seaside holidays from their inland spa town origins and explores the health benefits are variable etiquettes of sea bathing.
 author: Professor Carolyn Oulton
 date: 2026-02-15
-tags: sample
+categories: [ kent ]
+tags: [ kent, resorts, seaside ]
 image: wc:Venus's_bathing,_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg
 layout: post
 permalink: /examples/kent-seaside-resorts
