@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jekyll Preview</title>
+
+  <!-- Best-effort Chirpy-ish CSS from the deployed site -->
+  <script>
+    (function injectSiteCSS() {
+      const path = location.pathname.replace(/\/index\.html$/, "");
+      const baseurl = path.replace(/\/preview\/?$/, "");
+      window.__PREVIEW_BASEURL__ = baseurl;
+
+      const candidates = [
+        `${baseurl}/assets/css/style.css`,
+        `${baseurl}/assets/css/jekyll-theme-chirpy.css`,
+        `${baseurl}/assets/css/main.css`,
+      ];
+
+      for (const href of candidates) {
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = href;
+        document.head.appendChild(link);
+      }
+    })();
+  </script>
+
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; }
+    header { padding: 12px 16px; border-bottom: 1px solid rgba(127,127,127,.25); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    header .meta { font-size: 14px; opacity: .85; }
+    header button { padding: 6px 10px; border: 1px solid rgba(127,127,127,.35); background: transparent; border-radius: 8px; cursor: pointer; }
+    header button:hover { opacity: .9; }
+    #status { padding: 10px 16px; border-bottom: 1px solid rgba(127,127,127,.2); font-size: 14px; }
+    #status.warn { background: rgba(255, 170, 0, .15); }
+    #status.err { background: rgba(255, 0, 0, .12); }
+    main { padding: 18px 16px; max-width: 980px; margin: 0 auto; }
+    pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    pre { padding: 12px; overflow: auto; border: 1px solid rgba(127,127,127,.25); border-radius: 10px; }
+    a { word-break: break-word; }
+    .include-placeholder { border: 1px dashed rgba(127,127,127,.5); padding: 8px 10px; border-radius: 10px; opacity: .9; }
+  </style>
+
+  <!-- Libraries (CDN) -->
+  <script src="https://unpkg.com/liquidjs/dist/liquid.browser.min.js"></script>
+  <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
+  <script src="https://unpkg.com/js-yaml/dist/js-yaml.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <strong>Preview</strong>
+    <span class="meta" id="fileMeta">No file loaded</span>
+    <button id="reloadBtn" title="Reload (also just refresh the page)">Reload</button>
+    <button id="changeBtn" title="Change preview URL stored by bookmarklet">Change preview URL</button>
+  </header>
+
+  <div id="status">Use the bookmarklet from a GitHub file page to open a preview.</div>
+  <main id="out"></main>
+
+  <script>
+    const statusEl = document.getElementById("status");
+    const outEl = document.getElementById("out");
+    const fileMetaEl = document.getElementById("fileMeta");
+
+    const md = window.markdownit({
+      html: true,
+      linkify: true,
+      typographer: true
+    });
+
+    function setStatus(msg, kind = "") {
+      statusEl.className = kind;
+      statusEl.textContent = msg;
+    }
+
+    function parsePayloadFromHash() {
+      const h = (location.hash || "").replace(/^#/, "").trim();
+      if (!h) return null;
+      try {
+        return JSON.parse(decodeURIComponent(h)); // {o,r,ref,p}
+      } catch {
+        return null;
+      }
+    }
+
+    function parseFrontMatter(text) {
+      if (!text.startsWith("---")) return { data: {}, body: text };
+
+      const lines = text.split(/\r?\n/);
+      let end = -1;
+      for (let i = 1; i < lines.length; i++) {
+        if (lines[i].trim() === "---") { end = i; break; }
+      }
+      if (end === -1) return { data: {}, body: text };
+
+      const yamlText = lines.slice(1, end).join("\n");
+      const body = lines.slice(end + 1).join("\n");
+
+      let data = {};
+      try { data = jsyaml.load(yamlText) || {}; } catch { data = {}; }
+
+      return { data, body };
+    }
+
+    function isRelativeUrl(u) {
+      if (!u) return false;
+      return !/^(https?:)?\/\//i.test(u) && !/^(data:|mailto:|tel:|#)/i.test(u);
+    }
+
+    function rewriteRelativeUrls(container, rawBase, fileDir) {
+      container.querySelectorAll("img").forEach(img => {
+        const src = img.getAttribute("src");
+        if (!isRelativeUrl(src)) return;
+        const fixed = src.startsWith("/")
+          ? rawBase + src.replace(/^\//, "")
+          : rawBase + fileDir + src;
+        img.setAttribute("src", fixed);
+      });
+
+      container.querySelectorAll("a").forEach(a => {
+        const href = a.getAttribute("href");
+        if (!isRelativeUrl(href)) return;
+        const fixed = href.startsWith("/")
+          ? rawBase + href.replace(/^\//, "")
+          : rawBase + fileDir + href;
+        a.setAttribute("href", fixed);
+        a.setAttribute("target", "_blank");
+        a.setAttribute("rel", "noopener noreferrer");
+      });
+    }
+
+    // ---------- INCLUDE SUPPORT (with parameters) ----------
+
+    // Global include loader state updated per-render
+    const includeCache = new Map(); // key = rawUrl, value = text
+    const includeInFlight = new Map(); // key = rawUrl, value = Promise<string>
+
+    function splitArgsPreserveQuotes(s) {
+      // Splits on whitespace but preserves quoted strings
+      const out = [];
+      const re = /"([^"]*)"|'([^']*)'|(\S+)/g;
+      let m;
+      while ((m = re.exec(s)) !== null) {
+        out.push(m[1] ?? m[2] ?? m[3]);
+      }
+      return out;
+    }
+
+    function parseIncludeArgs(argsStr) {
+      // argsStr like:  foo.html a="x" b=page.title c=site.baseurl
+      const tokens = splitArgsPreserveQuotes(argsStr || "");
+      if (!tokens.length) return { name: null, params: {} };
+
+      const name = tokens[0];
+      const params = {};
+
+      // Parse k=v pairs from the remainder (support bare values)
+      // We’ll also handle values that were quoted (splitArgs already stripped quotes).
+      for (let i = 1; i < tokens.length; i++) {
+        const t = tokens[i];
+        const eq = t.indexOf("=");
+        if (eq === -1) continue;
+        const k = t.slice(0, eq);
+        const v = t.slice(eq + 1);
+        params[k] = v;
+      }
+      return { name, params };
+    }
+
+    async function evalLiquidValue(engine, expr, ctx) {
+      // If user wrote something like page.title or site.baseurl, evaluate it.
+      // If it's a literal string (already stripped of quotes by tokenization), this will return it as-is
+      // only if it doesn't resolve; that's acceptable for preview.
+      if (expr == null) return "";
+
+      // Heuristic: treat things with spaces as literal
+      if (/\s/.test(expr)) return expr;
+
+      try {
+        const rendered = await engine.parseAndRender(`{{ ${expr} }}`, ctx);
+        const trimmed = (rendered ?? "").trim();
+        // If it rendered to empty but expr is non-empty, fall back to raw expr as a literal.
+        return trimmed === "" ? expr : trimmed;
+      } catch {
+        return expr;
+      }
+    }
+
+    async function fetchRawText(url) {
+      if (includeCache.has(url)) return includeCache.get(url);
+
+      if (includeInFlight.has(url)) return includeInFlight.get(url);
+
+      const p = (async () => {
+        const resp = await fetch(url, { cache: "no-store" });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const txt = await resp.text();
+        includeCache.set(url, txt);
+        includeInFlight.delete(url);
+        return txt;
+      })();
+
+      includeInFlight.set(url, p);
+      return p;
+    }
+
+    function registerIncludeTag(engine, getIncludeUrl, renderMarkdownForMdIncludes) {
+      engine.registerTag("include", {
+        parse: function (token) {
+          // token.args: everything after "include"
+          this.argsStr = token.args;
+        },
+        render: async function (ctx) {
+          const { name, params } = parseIncludeArgs(this.argsStr);
+
+          if (!name) {
+            return `<div class="include-placeholder">include: (missing filename)</div>`;
+          }
+
+          const includeUrl = getIncludeUrl(name);
+
+          let includeText;
+          try {
+            includeText = await fetchRawText(includeUrl);
+          } catch (e) {
+            return `<div class="include-placeholder">include not found: ${name}</div>`;
+          }
+
+          // Build an "include" object like Jekyll does
+          const includeObj = {};
+          for (const [k, v] of Object.entries(params)) {
+            includeObj[k] = await evalLiquidValue(engine, v, ctx);
+          }
+
+          // Push include scope: Jekyll exposes params as include.*
+          ctx.push({ include: includeObj });
+
+          let rendered;
+          try {
+            rendered = await engine.parseAndRender(includeText, ctx);
+          } catch (e) {
+            rendered = `<div class="include-placeholder">include render error: ${name}</div>`;
+          } finally {
+            ctx.pop();
+          }
+
+          // If they included a markdown fragment, render it to HTML.
+          if (renderMarkdownForMdIncludes && /\.(md|markdown)$/i.test(name)) {
+            return md.render(rendered);
+          }
+
+          return rendered;
+        }
+      });
+    }
+
+    // ---------- END INCLUDE SUPPORT ----------
+
+    function detectUnsupportedTags(source) {
+      const hits = [];
+      const patterns = [
+        /\{%\s*include_relative\b/i,
+        /\{%\s*seo\b/i,
+        /\{%\s*feed_meta\b/i,
+        /\{%\s*paginate\b/i,
+        /\{%\s*gist\b/i,
+        /\{%\s*post_url\b/i,
+      ];
+      for (const re of patterns) if (re.test(source)) hits.push(re.toString());
+      return hits.length ? hits : null;
+    }
+
+    async function render() {
+      const payload = parsePayloadFromHash();
+      if (!payload?.o || !payload?.r || !payload?.ref || !payload?.p) {
+        setStatus("No preview payload found. Use the bookmarklet from a GitHub file page.", "warn");
+        return;
+      }
+
+      const { o, r, ref, p } = payload;
+      fileMetaEl.textContent = `${o}/${r}@${ref} — ${p}`;
+
+      const rawUrl = `https://raw.githubusercontent.com/${o}/${r}/${ref}/${p}?t=${Date.now()}`;
+      const rawBase = `https://raw.githubusercontent.com/${o}/${r}/${ref}/`;
+      const fileDir = (p.split("/").slice(0, -1).join("/") + "/").replace(/^\/+/, "");
+
+      setStatus(`Fetching ${rawUrl} ...`);
+
+      let text;
+      try {
+        const resp = await fetch(rawUrl, { cache: "no-store" });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        text = await resp.text();
+      } catch (e) {
+        setStatus(`Failed to fetch raw markdown: ${e.message}`, "err");
+        return;
+      }
+
+      const { data: fm, body: bodyMd } = parseFrontMatter(text);
+
+      const unsupported = detectUnsupportedTags(text);
+      if (unsupported) {
+        setStatus("Warning: this preview may not match Jekyll for some tags/plugins.", "warn");
+      } else {
+        setStatus(`Loaded. Refresh to update. (${new Date().toLocaleString()})`);
+      }
+
+      const baseurl = window.__PREVIEW_BASEURL__ || "";
+      const siteUrl = location.origin + baseurl;
+
+      const context = {
+        site: {
+          url: siteUrl,
+          baseurl: baseurl,
+          title: document.title
+        },
+        page: {
+          ...fm,
+          path: p
+        }
+      };
+
+      const engine = new liquidjs.Liquid({
+        strictFilters: false,
+        strictVariables: false
+      });
+
+      // Rough Jekyll-ish filters
+      engine.registerFilter("relative_url", (input) => {
+        if (input == null) return "";
+        const s = String(input);
+        if (/^(https?:)?\/\//i.test(s)) return s;
+        const withSlash = s.startsWith("/") ? s : "/" + s;
+        return (baseurl || "") + withSlash;
+      });
+
+      engine.registerFilter("absolute_url", (input) => {
+        if (input == null) return "";
+        const s = String(input);
+        if (/^(https?:)?\/\//i.test(s)) return s;
+        const withSlash = s.startsWith("/") ? s : "/" + s;
+        return siteUrl.replace(/\/$/, "") + withSlash;
+      });
+
+      // Register include tag: fetch from repo/_includes/<name>
+      registerIncludeTag(
+        engine,
+        (name) => `${rawBase}_includes/${name}?t=${Date.now()}`,
+        true // render markdown if they include .md/.markdown fragments
+      );
+
+      // Render Liquid inside markdown body
+      let liquidExpanded = bodyMd;
+      try {
+        liquidExpanded = await engine.parseAndRender(bodyMd, context);
+      } catch (e) {
+        setStatus(`Liquid render error (showing raw markdown body): ${e.message}`, "err");
+        liquidExpanded = bodyMd;
+      }
+
+      // Markdown -> HTML
+      const html = md.render(liquidExpanded);
+      outEl.innerHTML = html;
+
+      // Rewrite relative URLs to raw GitHub so images/links work
+      rewriteRelativeUrls(outEl, rawBase, fileDir);
+    }
+
+    document.getElementById("reloadBtn").addEventListener("click", () => render());
+
+    document.getElementById("changeBtn").addEventListener("click", () => {
+      const cur = localStorage.getItem("jekyllPreviewBase") || "";
+      const next = prompt("Preview app URL (where this preview page lives):", cur);
+      if (next == null) return;
+      const base = next.trim().replace(/\/?$/,"/");
+      localStorage.setItem("jekyllPreviewBase", base);
+      setStatus("Saved. (This affects the bookmarklet destination.)");
+    });
+
+    render();
+  </script>
+</body>
+</html>
