@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn: https://res.cloudinary.com/dmceci9t1/image/fetch/w_1200,c_limit
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/heritage.jpg
+avatar: /assets/img/TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
