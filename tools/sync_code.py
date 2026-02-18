@@ -47,6 +47,7 @@ FILES_TO_SYNC = [
     "_layouts/juncture-home.html",
     "_layouts/post.html",
     "_plugins/md5_filter.rb",
+    "_posts/.template.md",
     "_tabs/admin.md",
     "assets/components/image-compare.html",
     "assets/components/image.html",
