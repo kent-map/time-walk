@@ -26,10 +26,10 @@ description: >- # used by seo meta and the atom feed
 url: https://kent-map.github.io # the base hostname & protocol for your site
 
 github:
-  username: github_username # change to your GitHub username
+  username: # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # change to your Twitter username
 
 social:
   # Change to your full name.
