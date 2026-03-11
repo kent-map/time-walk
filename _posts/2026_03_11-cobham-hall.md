@@ -3,7 +3,7 @@ title: Cobham Hall: A soldier's story
 description: This article explores life at Cobham Hall during the first world war
 author: Michelle Crowther
 date: 2026-03-11
-categories: [ ]
+categories: [broadstairs ]
 tags: [kent, dickens ]
 published: true
 featured: false
