@@ -14,4 +14,4 @@ image:
 juncture: false # change to true to enable Juncture extensions
 ---
 
-Postcards sent by an Australian soldier who convalesced at Cobham Hall during the first world war were sent to the Dickens Festival in June 1966. This article will explore his experiences at Cobham Hall during this period.
+Postcards sent by an Australian soldier who convalesced at Cobham Hall during the first world war were sent by his sister Miss J. Burrows to the Dickens Festival in June 1966. This article will explore his experiences at Cobham Hall during this period.
