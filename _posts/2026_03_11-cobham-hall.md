@@ -4,7 +4,7 @@ description: This article explores life at Cobham Hall during the first world wa
 author: Michelle Crowther
 date: 2026-03-11
 categories: [ ]
-tags: [ ]
+tags: [kent, dickens ]
 published: true
 featured: false
 media_subpath: /assets/img
