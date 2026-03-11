@@ -1,7 +1,7 @@
 ---
 title: Cobham Hall: A soldier's story
 description: 
-author: 
+author: Michelle Crowther
 date: 2026-01-01
 categories: [ ]
 tags: [ ]
