@@ -2,7 +2,7 @@
 title: "Deal's War On The Shore"
 description: "Deal’s shingle shore and the Downs shaped a long military history, from Roman landfall attempts and medieval coastal watch to Tudor fortifications built against invasion. Castles, barracks, mines, shipwrecks, and wartime civil defence reveal how proximity to France and hazardous waters repeatedly drew conflict to the town and left durable traces in its landscape and community memory."
 author: Liam Cohen
-date: 2026-0-401
+date: 2026-04-01
 categories: [ Deal ]
 tags: [ Deal, Conflict & war, Coast & sea, Buildings & architecture, Heritage & memory ]
 published: true
