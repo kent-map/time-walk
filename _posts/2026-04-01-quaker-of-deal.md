@@ -12,7 +12,8 @@ media_subpath: /assets/img
 image: 
   path: https://raw.githubusercontent.com/kent-map/images/main/banners/18c.jpg
   alt: 
-juncture: false
+layout: post
+juncture: true
 toc: false  
 ---
 
