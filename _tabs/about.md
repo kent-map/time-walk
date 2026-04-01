@@ -54,11 +54,17 @@ Michelle Crowther is an Academic Librarian at Canterbury Christ Church Universit
 
 Lesley Hardy is the Impact Officer for the Project. She is the Director of Timelocked Heritage and also an Anglican Priest. Her work is based on the place of the past in our lives. She has many years of experience in the development and delivery of community based heritage projects.
 
-## Lily Turvey
+## Heather Crowther
 
-![Lily Turvey](Turvey.jpg)
+![Heather Crowther](Heather.jpg)
 
-Lily Turvey is the Admin Officer for the Project. She has a BA in History from Cardiff University and is completing her MA in Heritage at Canterbury Christ Church University.
+I’m Heather Murdoch, Project and Digital Officer for Let’s Do The Time Walk Again! and a recent graduate of CCCU, where I completed a BA in English Literature and an MA in Visual Communication. As a Kent-based creative, my journey has been defined by a deep passion for storytelling - whether through the written word, visual communication or digital media. Being part of the Time Walk project offers an exciting opportunity to bring these interests together in a meaningful way, supporting partner museums and empowering volunteers to share local heritage through accessible and engaging digital platforms.
+
+## Aayush Ale 
+
+![Aayush Ale](Aayush.jpg)
+
+Aayush Ale is a Computer Science undergraduate at Canterbury Christ Church University and a Digital Officer for the Project. He is a full-stack developer passionate about building practical, user-focused applications that solve real-world problems.
 
 ## Darran Cowd
 
