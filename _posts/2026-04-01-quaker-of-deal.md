@@ -1,6 +1,6 @@
 ---
-title: Charles Shadwell and The Fair Quaker of Deal
-description: "Charles Shadwell’s play The Fair Quaker of Deal gives a flavour of life near the beach, discussing anchorage in the Downs, provisioning, taverns, prostitution, Quaker life, and debates about reform in the navy during the War of the Spanish Succession.
+title: "Charles Shadwell and The Fair Quaker of Deal"
+description: "Charles Shadwell’s play The Fair Quaker of Deal gives a flavour of life near the beach, discussing anchorage in the Downs, provisioning, taverns, prostitution, Quaker life, and debates about reform in the navy during the War of the Spanish Succession."
 author: Michelle Crowther
 date: 2026-01-01
 categories: [ Deal ]
