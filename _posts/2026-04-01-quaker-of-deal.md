@@ -9,9 +9,7 @@ published: true
 featured: false
 permalink: /deal/quaker-of-deal/
 media_subpath: /assets/img
-image: 
-  path: https://raw.githubusercontent.com/kent-map/images/main/banners/18c.jpg
-  alt: 
+image: wc:North Foreland - Deal - btv1b53010670p.jpg
 layout: post
 juncture: true
 toc: false  
