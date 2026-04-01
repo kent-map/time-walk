@@ -5,7 +5,7 @@ author: Michelle Crowther
 date: 2026-04-01
 categories: [ Deal ]
 tags: [  Deal, Coast & sea, Culture & society, Conflict & war ]
-published: false
+published: true
 featured: false
 permalink: /deal/quaker-of-deal/
 image: wc:North Foreland - Deal - btv1b53010670p.jpg
