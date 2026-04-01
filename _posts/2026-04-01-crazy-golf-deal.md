@@ -1,0 +1,15 @@
+---
+title: Crazy Golf in Deal
+description: 
+author: 
+date: 2026-01-01
+categories: [ Deal ]
+tags: [Deal, Leisure ]
+published: false
+featured: false
+media_subpath: /assets/img
+image:
+  path: 
+  alt: 
+juncture: false # change to true to enable Juncture extensions
+---
