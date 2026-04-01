@@ -1,14 +1,18 @@
 ---
 title: "Gladys Waterer (1885 - 1971)"
-description: "Gladys Waterer shaped early twentieth-century Dickens performance culture in Broadstairs through festival adaptations and leadership in the Dickens Fellowship. Her novels The Third Chance and The Lady in Mauve weave Margate, Ramsgate, and Broadstairs into coastal fiction that observes local amateur theatre politics and everyday seaside life."
-author: Carolyn Oulton
-date: 2021-10-01
+description: Gladys Waterer shaped early twentieth-century Dickens performance culture in Broadstairs through festival adaptations and leadership in the Dickens Fellowship. Her novels The Third Chance and The Lady in Mauve weave Margate, Ramsgate, and Broadstairs into coastal fiction that observes local amateur theatre politics and everyday seaside life."
+author: Professor Carolyn Oulton
+date: 2026-01-01
 categories: [ Broadstairs ]
 tags: [ Broadstairs ]
-image: https://upload.wikimedia.org/wikipedia/commons/a/a6/Dickens-museum.jpg
+published: true
+featured: false
 permalink: /broadstairs/gladys-waterer-biography/
-published: false
-toc: false  
+media_subpath: /assets/img
+image:
+  path: https://upload.wikimedia.org/wikipedia/commons/a/a6/Dickens-museum.jpg
+  alt: 
+juncture: false # change to true to enable Juncture extensions
 ---
 
 ‘Who wants to know what everything means? Novels are not meant to be real life, only stories to amuse us. It is wrong to take such things seriously.” 
