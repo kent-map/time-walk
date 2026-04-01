@@ -1,13 +1,18 @@
 ---
-title: "Charles Shadwell (1672-5? – 1726)"
-description: "Charles Shadwell’s career links early eighteenth-century theatre, naval culture, and the patronage networks that ran through Kent. Deal and Dover shape The Fair Quaker of Deal through references to anchorage in the Downs, provisioning, taverns, prostitution, Quaker life, and debates about reform in the navy during the War of the Spanish Succession."
+title: Charles Shadwell and The Fair Quaker of Deal
+description: "Charles Shadwell’s play The Fair Quaker of Deal gives a flavour of life near the beach, discussing anchorage in the Downs, provisioning, taverns, prostitution, Quaker life, and debates about reform in the navy during the War of the Spanish Succession.
 author: Michelle Crowther
-date: 2023-02-25
-categories: [ 18c ]
-tags: [ Authors & lives, Texts & genres, Coast & sea, Culture & society, Conflict & war ]
-image: https://raw.githubusercontent.com/kent-map/images/main/banners/18c.jpg
-permalink: /18c/18c-shadwell-biography/
+date: 2026-01-01
+categories: [ Deal ]
+tags: [  Deal, Coast & sea, Culture & society, Conflict & war ]
 published: true
+featured: false
+permalink: /deal/quaker-of-deal/
+media_subpath: /assets/img
+image: https://raw.githubusercontent.com/kent-map/images/main/banners/18c.jpg
+  path: 
+  alt: 
+juncture: false
 toc: false  
 ---
 
