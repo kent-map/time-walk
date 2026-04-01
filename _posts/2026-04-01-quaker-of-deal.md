@@ -9,8 +9,8 @@ published: true
 featured: false
 permalink: /deal/quaker-of-deal/
 media_subpath: /assets/img
-image: https://raw.githubusercontent.com/kent-map/images/main/banners/18c.jpg
-  path: 
+image: 
+  path: https://raw.githubusercontent.com/kent-map/images/main/banners/18c.jpg
   alt: 
 juncture: false
 toc: false  
