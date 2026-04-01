@@ -2,12 +2,17 @@
 title: "Deal's War On The Shore"
 description: "Deal’s shingle shore and the Downs shaped a long military history, from Roman landfall attempts and medieval coastal watch to Tudor fortifications built against invasion. Castles, barracks, mines, shipwrecks, and wartime civil defence reveal how proximity to France and hazardous waters repeatedly drew conflict to the town and left durable traces in its landscape and community memory."
 author: Liam Cohen
-date: 2023-05-01
+date: 2026-0-401
 categories: [ Deal ]
 tags: [ Deal, Conflict & war, Coast & sea, Buildings & architecture, Heritage & memory ]
-image: https://upload.wikimedia.org/wikipedia/commons/0/0b/1904-08-18_front_Deal_sea_front.jpg
-permalink: /deal/deal-war/
 published: true
+featured: false
+permalink: /deal/deal-war/
+media_subpath: /assets/img
+image:
+  path: https://upload.wikimedia.org/wikipedia/commons/0/0b/1904-08-18_front_Deal_sea_front.jpg
+  alt: 
+juncture: true
 toc: false  
 ---
 
