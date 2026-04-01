@@ -3,11 +3,11 @@ title: Deal by the Sea
 description: Andrew Sargent discusses Deal's connection with the sea.
 author: Andrew Sargent
 date: 2026-02-15
-categories: [ kent ]
+categories: [ deal ]
 tags: [ kent, deal, seaside ]
 image: wc:Deal_Beach_from_Pier_(Looking_North)_(NBY_443007).jpg
 layout: post
-permalink: /posts/deal-by-the-sea
+permalink: /deal/deal-by-the-sea
 published: true
 juncture: true
 ---
