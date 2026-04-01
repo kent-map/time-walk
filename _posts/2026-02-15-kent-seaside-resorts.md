@@ -7,7 +7,7 @@ categories: [ kent ]
 tags: [ kent, resorts, seaside ]
 image: wc:Venus's_bathing,_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L0017752.jpg
 layout: post
-permalink: /examples/kent-seaside-resorts
+permalink: /kent/kent-seaside-resorts
 published: true
 featured: true
 juncture: true
