@@ -24,7 +24,7 @@ The 1939 census places Gladys back at 35 Northdown Avenue, presumably helping to
 
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/images/main/20c/Gladys_Waterer__1.jpg" aspect="1.269" caption="Gladys Waterer, as Mrs Squeers, Dickens Festival 1939" %}
 
-For the initial Dickens festival she adapted _Pickwick_ with Nina Boreham, followed by _David Copperfield_ (complete with donkeys) in 1938. By 1964 she had tackled every one of the major works bar _Oliver Twist_, which she candidly admitted she couldn’t face living with for the eight months it would have taken to prepare a suitable play. 
+The 1939 census places Gladys back at 35 Northdown Avenue, presumably helping to look after her father, who is described as 'incapacitated'. Emmeline Waterer would die two years later at the age of 81, and Clarence in 1943, aged 85. But from at least 1937 Gladys had been living with Dora Tattam at [2 Nuckell’s Place]({{ site.baseurl }}/dickens/david-copperfield-nuckells-place), the original of Aunt Betsey’s cottage in _David Copperfield_. For the initial Dickens festival she adapted _Pickwick_ with Nina Boreham, followed by _David Copperfield_ (complete with donkeys) in 1938. By 1964 she had tackled every one of the major works bar _Oliver Twist_, which she candidly admitted she couldn’t face living with for the eight months it would have taken to prepare a suitable play. 
 
 {% include embed/image.html src="wc:David_Copperfield_%281850%29_%2814593575778%29.jpg" aspect="0.785" caption="David Copperfield, 1850" %}
 

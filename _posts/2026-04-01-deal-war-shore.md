@@ -12,7 +12,7 @@ media_subpath: /assets/img
 image:
   path: https://upload.wikimedia.org/wikipedia/commons/0/0b/1904-08-18_front_Deal_sea_front.jpg
   alt: 
-juncture: false
+juncture: true
 toc: false  
 ---
 
