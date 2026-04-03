@@ -14,5 +14,6 @@ image:
 juncture: false # change to true to enable Juncture extensions
 ---
 
-
 {% include embed/youtube.html vid="rBfuQnkT8XiUm61X" caption="Dickens Museum" % }
+
+{% include embed/youtube.html vid="YBdXVnYZ3YeyA6xM caption="Applied Humanities student working at the Dickens Museum" % }
