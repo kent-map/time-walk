@@ -679,12 +679,12 @@ async function getEntityData(qids, language = "en") {
 
         if (rec.image?.value) {
             e.image = rec.image.value;
-            e.thumbnail = mwImage(rec.image.value, 300);
+            e.thumbnail = mwImage(rec.image.value, 330);
         }
 
         if (rec.logoImage?.value) {
             e.logoImage = rec.logoImage.value;
-            if (!e.thumbnail) e.thumbnail = mwImage(rec.logoImage.value, 300);
+            if (!e.thumbnail) e.thumbnail = mwImage(rec.logoImage.value, 330);
         }
 
         if (rec.whosOnFirst?.value) e.geojson = whosOnFirstUrl(rec.whosOnFirst.value);

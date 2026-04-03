@@ -33,8 +33,9 @@ The Juncture documentation then shows you how to go beyond standard posts — ad
 * **[Juncture Overview](juncture-overview)** 
 * **[Image Viewer](juncture-image-viewer)** 
 * **[Map Viewer](juncture-map-viewer)** 
-* **[Image Compare Viewer](juncture-image-compare-viewer)** 
-* **[YouTube Viewer](juncture-youtube-viewer)** 
+* **[Image Compare Viewer](juncture-image-compare-viewer)**
+* **[YouTube Viewer](juncture-youtube-viewer)**
+* **[Network Viewer](juncture-vis-network-viewer)**
 
 A complete list of documents is found in the **[Guides](#guides)** section below.
 
