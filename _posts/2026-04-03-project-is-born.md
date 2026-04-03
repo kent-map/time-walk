@@ -14,4 +14,4 @@ image:
 juncture: false # change to true to enable Juncture extensions
 ---
 
-{ vid="rBfuQnkT8XiUm61X" caption="Dickens Museum" }
+{ {% include embed/youtube.html id="vid2" vid="rBfuQnkT8XiUm61X" caption="Dickens Museum" }
