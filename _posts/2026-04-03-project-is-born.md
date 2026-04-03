@@ -13,3 +13,5 @@ image:
   alt: 
 juncture: false # change to true to enable Juncture extensions
 ---
+
+{ vid="rBfuQnkT8XiUm61X" caption="Dickens Museum" }
