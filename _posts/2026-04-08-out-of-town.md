@@ -7,6 +7,7 @@ categories: [ Folkestone ]
 tags: [ seaside ]
 published: true
 featured: false
+permalink: /folkestone/out-of-town/
 media_subpath: /assets/img
 image: https://upload.wikimedia.org/wikipedia/commons/f/f3/The_Lees_-i.e.%2C_Leas-%2C_Folkestone%2C_England-LCCN2002696746.jpg
 juncture: true
