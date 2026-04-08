@@ -5,7 +5,7 @@ author: Charles Dickens
 date: 2026-04-08
 categories: [ Folkestone ]
 tags: [ seaside ]
-published: false
+published: true
 featured: false
 media_subpath: /assets/img
 image:
