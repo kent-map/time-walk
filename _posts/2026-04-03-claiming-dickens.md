@@ -6,8 +6,8 @@ date: 2026-04-08
 categories: [ Kent ]
 tags: [ Kent, Dickens, House, Pilgrimage ]
 published: true
-featured: false
-image: wc:https://upload.wikimedia.org/wikipedia/commons/1/10/Charles_Dickens_by_Daniel_Maclise_%281844%29.jpg
+featured: true
+image: https://upload.wikimedia.org/wikipedia/commons/1/10/Charles_Dickens_by_Daniel_Maclise_%281844%29.jpg
 layout: post
 permalink: /kent/claiming-dickens-for-kent
 juncture: true
