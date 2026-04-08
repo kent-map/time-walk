@@ -1,6 +1,6 @@
 ---
 title: Claiming Dickens for Kent
-description: Prof. Carolyn Oulton highglights the fascination of Victorian readers with the writers' houses, and its transformation into later popularised 'literary pilgrimage'. 
+description: Prof. Carolyn Oulton highglights the fascination of Victorian readers with the writers' houses, and its transformation into later popularised literary pilgrimage. 
 author: Professor Carolyn Oulton 
 date: 2026-04-08
 categories: [ Kent ]
