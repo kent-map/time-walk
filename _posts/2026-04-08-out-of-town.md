@@ -1,3 +1,19 @@
+---
+title: Out of Town
+description: Charles Dickens Out of Town
+author: Charles Dickens
+date: 2026-04-08
+categories: [ Folkestone ]
+tags: [ seaside ]
+published: false
+featured: false
+media_subpath: /assets/img
+image:
+  path: https://upload.wikimedia.org/wikipedia/commons/f/f3/The_Lees_-i.e.%2C_Leas-%2C_Folkestone%2C_England-LCCN2002696746.jpg
+  alt: Folkestone Leas
+juncture: false # change to true to enable Juncture extensions
+---
+
 Sitting, on a bright September morning, among my books and papers at my open window on the cliff overhanging the sea-beach, I have the sky and ocean framed before me like a beautiful picture. A beautiful picture, but with such movement in it, such changes of light upon the sails of ships and wake of steamboats, such dazzling gleams of silver far out at sea, such fresh touches on the crisp wave-tops as they break and roll towards me - a picture with such music in the billowy rush upon the shingle, the blowing of morning wind through the corn-sheaves where the farmers' waggons are busy, the singing of the larks, and the distant voices of children at play - such charms of sight and sound as all the Galleries on earth can but poorly suggest.
 
 So dreamy is the murmur of the sea below my window, that I may have been here, for anything I know, one hundred years. Not that I have grown old, for, daily on the neighbouring downs and grassy hill-sides, I find that I can still in reason walk any distance, jump over anything, and climb up anywhere; but, that the sound of the ocean seems to have become so customary to my musings, and other realities seem so to have gone aboard ship and floated away over the horizon, that, for aught I will undertake to the contrary, I am the enchanted son of the King my father, shut up in a tower on the sea-shore, for protection against an old she-goblin who insisted on being my godmother, and who foresaw at the font - wonderful creature! - that I should get into a scrape before I was twenty-one. I remember to have been in a City (my Royal parent's dominions, I suppose), and apparently not long ago either, that was in the dreariest condition. The principal inhabitants had all been changed into old newspapers, and in that form were preserving their window-blinds from dust, and wrapping all their smaller household gods in curl-papers. I walked through gloomy streets where every house was shut up and newspapered, and where my solitary footsteps echoed on the deserted pavements. In the public rides there were no carriages, no horses, no animated existence, but a few sleepy policemen, and a few adventurous boys taking advantage of the devastation to swarm up the lamp-posts. In the Westward streets there was no traffic; in the Westward shops, no business. The water-patterns which the 'Prentices had trickled out on the pavements early in the morning, remained uneffaced by human feet. At the corners of mews, Cochin-China fowls stalked gaunt and savage; nobody being left in the deserted city (as it appeared to me), to feed them. Public Houses, where splendid footmen swinging their legs over gorgeous hammer-cloths beside wigged coachmen were wont to regale, were silent, and the unused pewter pots shone, too bright for business, on the shelves. I beheld a Punch's Show leaning against a wall near Park Lane, as if it had fainted. It was deserted, and there were none to heed its desolation. In Belgrave Square I met the last man - an ostler - sitting on a post in a ragged red waistcoat, eating straw, and mildewing away.
