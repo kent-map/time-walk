@@ -9,7 +9,7 @@ published: true
 featured: false
 image: https://upload.wikimedia.org/wikipedia/commons/1/10/Charles_Dickens_by_Daniel_Maclise_%281844%29.jpg
 layout: post
-permalink: /kent/claiming-dickens-for-kent
+permalink: /kent/claiming-dickens/
 juncture: true
 ---
 
