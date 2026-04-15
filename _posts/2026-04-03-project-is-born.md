@@ -6,7 +6,7 @@ date: 2026-04-08
 categories: [ Broadstairs ]
 tags: [ Broadstairs, Dickens ]
 published: true
-featured: false
+featured: true
 image: "https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/IMG_1361.JPG"
 juncture: true 
 ---
