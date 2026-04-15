@@ -7,7 +7,7 @@ categories: [ Kent ]
 tags: [ Kent, Dickens, House, Pilgrimage ]
 published: true
 featured: false
-image: https://upload.wikimedia.org/wikipedia/commons/1/10/Charles_Dickens_by_Daniel_Maclise_%281844%29.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/1/1d/Dickens_House_Broadstairs_Kent_England.jpg
 layout: post
 permalink: /kent/claiming-dickens/
 juncture: true
