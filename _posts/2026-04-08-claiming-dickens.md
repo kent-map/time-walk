@@ -34,7 +34,7 @@ But Dickens’s son Charlie later confirmed that the original source for Miss Be
 ## Bibliography
 
 Ashby-Sterry, J. ‘Miss Betsey Trotwood’s’. _Cucumber Chronicles_. Delhi: Facsimile Publisher, 2018. First published by Sampson Low, Marston, Searle & Rivington, London 1887. 156-66.   
-Booth, Alison. _Homes & Haunts: Touring Writers’ Shrines and Countries_. Oxford: Oxford University Press, 2016.   
+Booth, Alison. _Homes & Haunts: Touring Writers’ Shrines and Countries_. Oxford: Oxford University Press, 2016.     
 Directory for Broadstairs and St Peter’s, 1885.   
 Frost, Thomas. _In Kent with Charles Dickens_. London: Tinsley Bothers, 1880.   
 Hendrix, Herald. ‘Epilogue: The Appeal of Writers’ Houses.’ _Writers’ Houses and the Making of Memory_. Ed. Herald Hendrix. London: Routledge 2008. 235-243.   
