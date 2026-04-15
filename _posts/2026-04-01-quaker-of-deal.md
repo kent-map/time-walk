@@ -174,8 +174,6 @@ Shadwell worked as an assurance broker in William Street, Dublin, but after two 
 
 Charles wrote further plays for the Smock Alley theatre in Dublin as well as working for the revenue and died in 1726.
 
-This article was published: 25 February 2023.
-
 {% include embed/image.html src="wc:Hogarth-rehearsal_%282%29.png" aspect="0.991" caption="A Just View of the British Stage, 1724" %}
 
 ### References
