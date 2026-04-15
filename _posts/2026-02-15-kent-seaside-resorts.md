@@ -9,7 +9,7 @@ image: wc:Venus's_bathing,_a_woman_swimming_in_the_sea_at_Margate._Wellcome_L001
 layout: post
 permalink: /kent/kent-seaside-resorts
 published: true
-featured: true
+featured: false
 juncture: true
 ---
 
