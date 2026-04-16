@@ -20,7 +20,7 @@
 {% assign markers_clean = include.markers
 | strip_newlines
 | strip
-| replace: " ", "" %}
+| replace: " ", "%20" %}
 {% assign qs = qs | append: "&markers=" | append: markers_clean | uri_escape %}
 {% endif %}
 
@@ -39,7 +39,7 @@
       {%- assign layer = parts[1] | strip -%}
     {%- endif -%}
 
-    {%- capture full_url -%}{%- include media-url.html src=frag subpath=post.media_subpath -%}{%- endcapture -%}
+    {%- capture full_url -%}{%- include media-url.html src=frag subpath=page.media_subpath -%}{%- endcapture -%}
     {%- assign full_url = full_url | strip -%}
 
     {%- if full_url != "" -%}
@@ -72,12 +72,16 @@
 {% assign qs = qs | append: "&allmaps=" | append: allmaps_clean | uri_escape %}
 {% endif %}
 
+{% if include.basemap %}
+{% assign qs = qs | append: "&basemap=" | append: include.basemap | uri_escape %}
+{% endif %}
+
 {%- assign class = "embed-map" -%}
 {%- if include.class -%}
 {%- assign class = class | append: " " | append: include.class -%}
 {%- endif -%}
 
-<iframe id="{{ include.id }}" class="{{ class }}" loading="lazy" title="Juncture map viewer" allow="clipboard-write"
+<iframe id="{{ include.id }}" class="{{ class }}" loading="lazy" title="StoryKit map viewer" allow="clipboard-write"
   style="aspect-ratio: {{ include.aspect | default: '1.0' }};"
   src="{{ '/assets/components/map.html' | relative_url }}?{{ qs }}" allowfullscreen>
 </iframe>

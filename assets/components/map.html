@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Map Component</title>
 
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
+
   <!-- Shoelace theme (optional) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/themes/light.css" />
 
@@ -65,16 +68,15 @@
 
     /* Caption */
     figcaption {
-      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-      font-size: 16px;
-      line-height: 28px;
-      padding: 8px 0;
-      display: flex;
-      align-items: center;
-      background: #fff;
-      color: rgb(52, 52, 60);
-      font-style: italic;
+      display: block;
+      text-align: center;
+      font-family: "Source Sans Pro", "Microsoft Yahei", sans-serif;
+      font-size: 18px;
       font-weight: 400;
+      color: #6d6c6c;
+      line-height: 1.4;
+      color-scheme: light;
+      font-style: normal;
       -webkit-font-smoothing: antialiased;
 
       /* layout */
@@ -83,24 +85,12 @@
       padding-right: 0;
     }
 
-    .caption-left {
-      flex: 1 1 auto;
-      min-width: 0;
-      padding-left: 0;
-    }
-
-    .caption-right {
-      flex: 0 0 auto;
-      display: flex;
-      align-items: center;
-      /* padding-right: 10px; */
-    }
 
     .caption-title {
-      padding-left: 0;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+      display: inline-block;
+      padding: 0 0.5rem;
+      text-align: center;
+      /* white-space: nowrap; */
     }
 
     .expand-btn {
@@ -221,14 +211,7 @@
       </div>
 
       <figcaption>
-        <div class="caption-left">
-          <div class="title caption-title"></div>
-        </div>
-        <div class="caption-right">
-          <button id="expandBtn" class="expand-btn" type="button" aria-label="Expand map" title="Expand">
-            <i class="fa-solid fa-expand" aria-hidden="true"></i>
-          </button>
-        </div>
+        <span class="title caption-title"></span>
       </figcaption>
     </figure>
   </main>
@@ -258,6 +241,10 @@
         maxZoom: 17,
         attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }],
+      Esri_WorldPhysical: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 10,
+        attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service'
+      }],
       Esri_WorldImagery: ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Tiles &copy; Esri"
       }],
@@ -283,7 +270,7 @@
     const captionTitleEl = document.querySelector("figcaption .title");
     const coordsEl = document.querySelector("#coords");
     const mapEl = document.querySelector("#map");
-    const expandBtn = document.querySelector("#expandBtn");
+    // const expandBtn = document.querySelector("#expandBtn");
 
     // ------------------------------ expand button ---------------------------
     function postShowDialog() {
@@ -294,11 +281,13 @@
         "*"
       );
     }
+    /*
     expandBtn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
       postShowDialog();
     });
+    */
 
     // ------------------------------ utilities ------------------------------
     const isQid = (s) => typeof s === "string" && /^Q\d+$/.test(s.trim());
@@ -333,6 +322,43 @@
 
     function setCaption(caption) {
       captionTitleEl.innerHTML = mdToHtml(caption);
+    }
+
+    function parseAspectRatio(value) {
+      if (!value) return null;
+
+      const v = value.trim();
+
+      // form: "w / h" or "w/h"
+      const slash = v.split("/");
+      if (slash.length === 2) {
+        const w = parseFloat(slash[0]);
+        const h = parseFloat(slash[1]);
+        if (Number.isFinite(w) && Number.isFinite(h) && h !== 0) {
+          return w / h;
+        }
+        return null;
+      }
+
+      // form: "1.7778"
+      const n = parseFloat(v);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function setContainerHeight(aspectRatio) {
+      const iframe = window.frameElement;
+      if (!aspectRatio) {
+        const raw = iframe?.style.getPropertyValue('aspect-ratio');
+        aspectRatio = parseAspectRatio(raw);
+      }
+      let width = mapEl.clientWidth;
+      if (iframe && width) {
+        let captionHeight = captionTitleEl.clientHeight || parseInt(captionTitleEl?.style.height?.slice(0, -2)) || 0;
+        let containerHeight = width / aspectRatio + captionHeight + 20;
+        // console.log('setting container height', { aspectRatio, width, captionHeight, containerHeight });
+        if (!iframe.style.width) iframe.style.width = '100%';
+        iframe.style.height = `${containerHeight}px`;
+      }
     }
 
     function clampNumber(n, min, max) {
@@ -400,7 +426,7 @@
 
       if (url.startsWith("wc:") ||
         ((url.includes("wikimedia.org") || url.includes("wikipedia.org")) && url.includes("/media/File:"))) {
-        return mwImage(url.replace(/^wc:/, ""), 300);
+        return mwImage(url.replace(/^wc:/, ""), 330);
       }
       if (url.startsWith("http://") || url.startsWith("https://")) return url;
       if (url.startsWith("gh:")) return `https://raw.githubusercontent.com/${url.slice(3)}/main`;
@@ -677,8 +703,8 @@
 
         if (rec.description) e.description = safeDecodeURIComponent(rec.description.value).replace(/_/g, " ");
         if (rec.coords) e.coords = rec.coords.value.slice(6, -1).split(" ").reverse().join(",");
-        if (rec.image) { e.image = rec.image.value; e.thumbnail = mwImage(rec.image.value, 300); }
-        if (rec.logoImage && !e.thumbnail) e.thumbnail = mwImage(rec.logoImage.value, 300);
+        if (rec.image) { e.image = rec.image.value; e.thumbnail = mwImage(rec.image.value, 330); }
+        if (rec.logoImage && !e.thumbnail) e.thumbnail = mwImage(rec.logoImage.value, 330);
         if (rec.whosOnFirst) e.geojson = whosOnFirstUrl(rec.whosOnFirst.value);
         if (rec.wikipedia) e.wikipedia = rec.wikipedia.value;
 
@@ -708,12 +734,12 @@
     // ----------------------------- layer parsing ----------------------------
     function collectQIDsFromProps(props) {
       const qids = new Set();
-      if (isQid(props.center)) qids.add(props.center);
+      if (isQid(props.center)) qids.add(props.center.trim());
 
       if (typeof props.markers === "string") {
         props.markers.split("|").forEach(marker => {
           const [first] = marker.split("~");
-          if (isQid(first)) qids.add(first);
+          if (isQid(first)) qids.add(first.trim());
         });
       }
       return qids;
@@ -801,7 +827,7 @@
             let style = `width:${Number.isFinite(w) ? w : 100}px;height:${Number.isFinite(h) ? h : 100}px;`;
             if (p.circle) style += `border-radius:50%;border:4px solid ${p.color || "#555555"};`;
 
-            const imgUrl = String(p.url).startsWith("wc:") ? mwImage(String(p.url).slice(3), 108) : p.url;
+            const imgUrl = String(p.url).startsWith("wc:") ? mwImage(String(p.url).slice(3), 330) : p.url;
             const html = `<img src="${imgUrl}" style="${style}"/>`;
 
             return new L.Marker(latlng, {
@@ -965,6 +991,11 @@
       };
 
       if (props.caption) setCaption(props.caption);
+
+      console.log(props);
+
+      setContainerHeight();
+
 
       const qids = collectQIDsFromProps(props);
       const entities = qids.size ? await getEntityData(Array.from(qids), props.language) : {};
