@@ -1,7 +1,7 @@
 ---
-title: Dynamo: The Spirit of Ramsgate 
+title: "Dynamo: The Spirit of Ramsgate"
 description: A Lightshow to commemorate the Dunkirk Evacuation
-author: Dr. Michelle Crowther 
+author: Dr. Michelle Crowther
 date: 2026-04-22
 categories: [ Ramsgate ]
 tags: [ Ramsgate World War 2 ]
