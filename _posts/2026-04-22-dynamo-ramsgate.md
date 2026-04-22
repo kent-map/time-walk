@@ -25,9 +25,7 @@ The lightshow began with the staccato sound of a typewriter as the date 1930 app
 
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/Pepsoft_RAM250516_123.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
 
-The date 1939 then appeared on the clock face with the sense of urgency of a war room communication and the precise tones of a BBC radio announcer spoke in a calm but authoritative way ‘This is London. You will now hear a statement from the Prime Minister, Neville Chamberlain’. 
-
-Neville Chamberlain, the Conservative prime minister, declares war from the Cabinet room of 10, Downing Street, which is illustrated by black and white photographs projected next to the clock tower entrance before pictures of the Prime Minister appear. Images of the invasion of Poland appear to the left whilst on the right worried families crowd around their radio to listen to the broadcast, clutching gas masks. 
+The date 1939 then appeared on the clock face with the sense of urgency of a war room communication and the precise tones of a BBC radio announcer spoke in a calm but authoritative way ‘This is London. You will now hear a statement from the Prime Minister, Neville Chamberlain’. Neville Chamberlain, the Conservative prime minister, declares war from the Cabinet room of 10, Downing Street, which is illustrated by black and white photographs projected next to the clock tower entrance before pictures of the Prime Minister appear. Images of the invasion of Poland appear to the left whilst on the right worried families crowd around their radio to listen to the broadcast, clutching gas masks. 
 
 {% include embed/youtube.html vid="gQh4XtilJVc&t=3s" caption="1939 Radio: Chamberlain Declares War BBC Broadcast, Sep 3, 1939" %}
 
