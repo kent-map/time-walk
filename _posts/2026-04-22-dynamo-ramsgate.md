@@ -29,6 +29,8 @@ The date 1939 then appeared on the clock face with the sense of urgency of a war
 
 Neville Chamberlain, the Conservative prime minister, declares war from the Cabinet room of 10, Downing Street, which is illustrated by black and white photographs projected next to the clock tower entrance before pictures of the Prime Minister appear. Images of the invasion of Poland appear to the left whilst on the right worried families crowd around their radio to listen to the broadcast, clutching gas masks. 
 
+{% include embed/youtube.html vid="gQh4XtilJVc&t=3s" caption="1939 Radio: Chamberlain Declares War BBC Broadcast, Sep 3, 1939" %}
+
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_060.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
 
 The Citizen newspaper headline ‘Britain at War’ sweeps up the screen and engulfs the former images dominating the whole Clock house building.  
@@ -41,8 +43,6 @@ Images of troops and armoured vehicles amassing become subsumed with rising bloo
 
 27th May 1940 is typed across the building and a grey watery seascape is projected and the sound of waves reminds us of our harbour location. On the horizon the hulls of little boats begin to appear to music, until the horizon is thick with the masts of the approaching ships. Corporal John Jones, trapped on the beach at Dunkirk, announces the moment that he spotted one of the little ships from the sand dunes as he waited wearily for help. He was rescued by the Barnacle skippered by Mr Whittaker. In an old boat, with a troublesome engine, the group of twelve men and the skipper sailed to Ramsgate. When he landed Jones kissed the ground thankful to be back on English soil. Private Arthur Patis who was rescued by the Ramsgate Lifeguards and greeted by the Women of the Women’s Voluntary Service (WVS) who plied the soldiers with tea and Lion’s fruit pies.  
 
-{% include embed/youtube.html vid="gQh4XtilJVc&t=3s" caption="1939 Radio: Chamberlain Declares War BBC Broadcast, Sep 3, 1939" %}
-
 Then the story of Eric Martin, an 18-year-old who was an electrician’s apprenticeship at Ramsgate who remembered seeing a destroyer at the Pier Head and the generosity of the townsfolk who offered food and cigarettes to the returning troops. Black and white footage of soldiers disembarking fade in and out of the screen.  Pegwell Bay was crammed with larger vessels. Doreen Miles remembers her grandparents loading up her brother’s pushchair and an old pram with blankets and bedlinen and throwing the blankets, pillows and sheets over the railings on the promenade to the soldiers arriving below. 
 
 The building returns to darkness and an eerie column of soldiers begins to walk across the scene from right to left. In the centre, black and white photographs of servicemen, gravestones and the ships that some of them served on represent the fallen who are buried in Ramsgate. The clock above appears like the moon in the dark night’s sky. 11,00 killed, 338,226 rescued, 43,000 of them through Ramsgate 
@@ -53,7 +53,6 @@ The voice of Winston Churchill in the House of Commons pierces the air as footag
 
 Red white and blue  pendants to left and right accompany images of Churchill as he says that “We shall never surrender” 
 
-We return to the blue, grey sea and the lights on the sea, as the crowd watching gives a rapturous applause and those who have silently wept surreptitiously wipe their eyes on their coat sleeves. 
+We return to the blue, grey sea and the lights flickering on the sea, as the crowd watching gives a rapturous applause and those who have silently wept surreptitiously wipe their eyes on their coat sleeves. 
 
-{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/images/main/19c/Margate_from_the_Parade.jpg" aspect="1.376" caption="Margate from the Parade" attribution="©The British Library Board c11802-06/Maps K.Top.17.4.e Images Online" %}
 
