@@ -53,3 +53,6 @@ The voice of Winston Churchill in the House of Commons pierces the air as footag
 Red white and blue  pendants to left and right accompany images of Churchill as he says that “We shall never surrender” 
 
 We return to the blue, grey sea and the lights on the sea, as the crowd watching gives a rapturous applause and those who have silently wept surreptitiously wipe their eyes on their coat sleeves. 
+
+{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/images/main/19c/Margate_from_the_Parade.jpg" aspect="1.376" caption="Margate from the Parade" attribution="©The British Library Board c11802-06/Maps K.Top.17.4.e Images Online" %}
+
