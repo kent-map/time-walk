@@ -15,7 +15,7 @@ Archival projects are great for disrupting hierarchies, for several reasons. Per
 
 We first approached the Dickens House Museum in Broadstairs in connection with our ongoing Digital Heritage project Kent Maps Online. Excitingly for us, the museum held boxes of uncatalogued material: no one was entirely sure what was on those mysterious slides that had been put in a drawer for safe keeping some time in the 1980s. When we visited with a placement student, the last thing we expected to find was the rate book showing George Eliot’s summer holiday in 1852.
 
-{% include embed/youtube.html vid="aPFN14CPISk" caption="Dickens Museum" %}
+{% include embed/youtube.html vid="1IIqJsVn-RM" caption="Applied Humanities student working at the Dickens Museum" %}
 
 That rate book got us thinking about the hidden connections between Marian Evans (the future George Eliot), the already-famous Dickens and Broadstairs. We could see that, unlike Dickens the year before, Evans was living economically and in modest lodgings. But she was similarly enthusiastic about the town, which she described as ‘this pretty, quiet place, which David Copperfield has made classic’.
 
@@ -23,6 +23,6 @@ That rate book got us thinking about the hidden connections between Marian Evans
 
 The Dickens Museum showcases a detailed recreation of Betsey Trotwood’s diminutive parlour, as described in David Copperfield. Revisiting the scene in which Betsey confronts the Murdstones, it becomes much clearer how the sheer proximity of his stepfather adds to the child’s terror as he begs his aunt not to hand him over. Other rooms in the museum hold collections of objects associated with Dickens, as well as other items of Victoriana. Clearly there was too much to be included in one of our deliberately ‘bite sized’ articles.
 
-{% include embed/youtube.html vid="1IIqJsVn-RM" caption="Applied Humanities student working at the Dickens Museum" %}
+{% include embed/youtube.html vid="aPFN14CPISk" caption="Dickens Museum" %}
 
 The Dickens Museum holds wonderful collections, not all of which can be displayed at any one time. This got us thinking. The East Kent coast is extraordinarily rich in history. How might local communities work with museums, to showcase the history of their towns in new ways? We talked to staff and volunteers at Ramsgate Clock House, Sandwich Guildhall Museum and Deal Maritime Museum. One theme kept coming up – these museums held unique local collections, and wanted new ways of sharing them with the public.
