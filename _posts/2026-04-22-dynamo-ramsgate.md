@@ -13,7 +13,7 @@ juncture: true
 
 The Time Walk project commenced with a light and sound show commemorating Ramsgate's role in the Dunkirk evacuation. at The Clock House Museum, Ramsgate on the 16 of May 2025.  The story of the Little Ships and the WWII rescue of British and allied troops from the beaches of Dunkirk was retold with stunning projections, set to a soundtrack, onto the Clock House Museum. The projections were created through historic images and archival footage collated through research by Projection Artist, Howard Griffin of [Illumiscape Ltd](https://illumiscape.co.uk/). Using projection mapping - a technique that displays images or video onto non-flat surfaces such as buildings - events that took place in the 1930s and 40s were brought to life, including the declaration of war with Germany, and then the events of the Operation Dynamo rescue of May and June 1940. The lightshow coincided with the arrival and departure of the surviving Little Ships as part of the 85th anniversary celebrations of Operation Dynamo held at Ramsgate Harbour and although bad weather at sea prevented all the ships arriving on time, those that arrived received a fabulous welcome, sailing in to witness the lightshow.  
 
-Rummy III - Dunkirk Little Ships - Ramsgate May 2025 (128).jpg
+{% include embed/image.html src="wc:Rummy III - Dunkirk Little Ships - Ramsgate May 2025 (128).jpg" aspect="0.785" caption="Rummy III - Dunkirk Little Ships - Ramsgate May 2025" attribution="Storye book" %}
 
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_032.jpg" aspect="0.656" caption="Lighshow" attribution="Pepsoft" %}
 
