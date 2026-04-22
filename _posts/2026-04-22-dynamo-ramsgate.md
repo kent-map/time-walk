@@ -45,15 +45,9 @@ Images of troops and armoured vehicles amassing become subsumed with rising bloo
 
 Then the story of Eric Martin, an 18-year-old who was an electrician’s apprenticeship at Ramsgate who remembered seeing a destroyer at the Pier Head and the generosity of the townsfolk who offered food and cigarettes to the returning troops. Black and white footage of soldiers disembarking fade in and out of the screen.  Pegwell Bay was crammed with larger vessels. Doreen Miles remembers her grandparents loading up her brother’s pushchair and an old pram with blankets and bedlinen and throwing the blankets, pillows and sheets over the railings on the promenade to the soldiers arriving below. 
 
-The building returns to darkness and an eerie column of soldiers begins to walk across the scene from right to left. In the centre, black and white photographs of servicemen, gravestones and the ships that some of them served on represent the fallen who are buried in Ramsgate. The clock above appears like the moon in the dark night’s sky. 
+The building returns to darkness and an eerie column of soldiers begins to walk across the scene from right to left. In the centre, black and white photographs of servicemen, gravestones and the ships that some of them served on represent the fallen who are buried in Ramsgate. The clock above appears like the moon in the dark night’s sky. 11,00 killed, 338,226 rescued, 43,000 of them through Ramsgate 
 
 {% include embed/youtube.html vid="IaeaF_hh8dc&t=139s" caption="Light show commemorating Ramsgate's role in the Dunkirk evacuation" %}
-
-11,00 killed 
-
-338,226 rescued 
-
-43,000 of them through Ramsgate 
 
 The voice of Winston Churchill in the House of Commons pierces the air as footage of men climbing up gang planks ? (getting on ships) accompanies his report of the Dunkirk evacuation, speaking of the ‘devotion and courage’ of those who braved the night waters to sail to Dunkirk and rescue the troops trapped on the beaches by the enemy’s advance. Smiling soldiers drink tea and are offered food from grateful well-wishers on a railway platform. 
 
