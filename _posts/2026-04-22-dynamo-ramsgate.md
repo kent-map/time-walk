@@ -5,7 +5,7 @@ author: Dr. Michelle Crowther
 date: 2026-04-22
 categories: [ Ramsgate ]
 tags: [ Ramsgate World War 2 ]
-published: false
+published: true
 featured: false
 image: https://upload.wikimedia.org/wikipedia/commons/8/82/Dynamo_-The_Spirit_of_Ramsgate.jpg
 juncture: true
