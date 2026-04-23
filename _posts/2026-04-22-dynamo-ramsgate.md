@@ -15,7 +15,7 @@ The Time Walk project commenced with a light and sound show commemorating Ramsga
 
 {% include embed/youtube.html vid="IaeaF_hh8dc&t=139s" caption="Light show commemorating Ramsgate's role in the Dunkirk evacuation" %}
 
-{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/Pepsoft_RAM250516_032.jpg" caption="Lighshow" attribution="Pepsoft" %}
+{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_032.jpg" caption="Lighshow" attribution="Pepsoft" %}
 
 The lightshow coincided with the arrival and departure of the surviving Little Ships as part of the 85th anniversary celebrations of Operation Dynamo held at Ramsgate Harbour and although bad weather at sea prevented all the ships arriving on time, those that arrived received a fabulous welcome, sailing in to witness the lightshow. The "Little Ships" were a fleet of privately owned boats that assisted the evacuation of Allied troops from France, during World War II. Approximately 850 vessels, including fishing boats, pleasure craft, and tugs, participated in the operation, known as Operation Dynamo. These small vessels, unsuited for long sea voyages, played a vital role in ferrying soldiers from the beaches to larger ships, despite facing German attacks. The Clock House Museum has photographs and archival material related to these events. 
 
@@ -23,7 +23,7 @@ The lightshow coincided with the arrival and departure of the surviving Litt
 
 The lightshow began with the staccato sound of a typewriter as the date 1930 appeared on the Clock House. This was followed by big band music, flags and bunting reflecting a fun-loving nation at peace in the 1930s. A large Union flag projected onto the centre of the building appeared to flutter in the breeze. Black and white aerial shots of Ramsgate Harbour with people, cars and buses set the scene - a vibrant pre-war seaside town.
 
-{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/Pepsoft_RAM250516_123.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
+{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_123.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
 
 The date 1939 then appeared on the clock face with the sense of urgency of a war room communication and the precise tones of a BBC radio announcer spoke in a calm but authoritative way ‘This is London. You will now hear a statement from the Prime Minister, Neville Chamberlain’. Neville Chamberlain, the Conservative prime minister, declares war from the Cabinet room of 10, Downing Street, which is illustrated by black and white photographs projected next to the clock tower entrance before pictures of the Prime Minister appear. Images of the invasion of Poland appear to the left whilst on the right worried families crowd around their radio to listen to the broadcast, clutching gas masks. 
 
@@ -35,7 +35,7 @@ The Citizen newspaper headline ‘Britain at War’ sweeps up the screen and eng
 
 A large clock begins ticking loudly on the clock house front, indicating that time is marching on, its hands whirring in a golden light as the actual clock face appears above like the moon, lit up in the sky. 
 
-{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/Pepsoft_RAM250516_104.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
+{% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_104.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
 
 Images of troops and armoured vehicles amassing become subsumed with rising blood which engulfs the scene. As the clock house building turns red, we get a sense that time is running out for the British and French troops. Then the clock stops and the building falls into darkness apart from the clock that shines like a beacon.  
 
