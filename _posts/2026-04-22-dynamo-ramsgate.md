@@ -1,7 +1,7 @@
 ---
 title: "Dynamo: The Spirit of Ramsgate"
 description: A Lightshow to commemorate the Dunkirk Evacuation
-author: Dr. Michelle Crowther
+author: Dr Michelle Crowther
 date: 2026-04-22
 categories: [ Ramsgate ]
 tags: [ Ramsgate World War 2 ]
@@ -31,26 +31,18 @@ The date 1939 then appeared on the clock face with the sense of urgency of a war
 
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_060.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
 
-The Citizen newspaper headline ‘Britain at War’ sweeps up the screen and engulfs the former images dominating the whole Clock house building.  
-
-A large clock begins ticking loudly on the clock house front, indicating that time is marching on, its hands whirring in a golden light as the actual clock face appears above like the moon, lit up in the sky. 
+The Citizen newspaper headline ‘Britain at War’ sweeps up the screen and engulfs the former images dominating the whole Clock house building.  A large clock begins ticking loudly on the clock house front, indicating that time is marching on, its hands whirring in a golden light as the actual clock face appears above like the moon, lit up in the sky. Images of troops and armoured vehicles amassing become subsumed with rising blood which engulfs the scene. As the clock house building turns red, we get a sense that time is running out for the British and French troops. Then the clock stops and the building falls into darkness apart from the clock that shines like a beacon. 
 
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_104.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
 
-Images of troops and armoured vehicles amassing become subsumed with rising blood which engulfs the scene. As the clock house building turns red, we get a sense that time is running out for the British and French troops. Then the clock stops and the building falls into darkness apart from the clock that shines like a beacon.  
-
-27th May 1940 is typed across the building and a grey watery seascape is projected and the sound of waves reminds us of our harbour location. On the horizon the hulls of little boats begin to appear to music, until the horizon is thick with the masts of the approaching ships. Corporal John Jones, trapped on the beach at Dunkirk, announces the moment that he spotted one of the little ships from the sand dunes as he waited wearily for help. He was rescued by the Barnacle skippered by Mr Whittaker. In an old boat, with a troublesome engine, the group of twelve men and the skipper sailed to Ramsgate. When he landed Jones kissed the ground thankful to be back on English soil. Private Arthur Patis who was rescued by the Ramsgate Lifeguards and greeted by the Women of the Women’s Voluntary Service (WVS) who plied the soldiers with tea and Lion’s fruit pies.
+27th May 1940 is typed across the building and a grey watery seascape is projected and the sound of waves reminds us of our harbour location. On the horizon the hulls of little boats begin to appear to music, until the horizon is thick with the masts of the approaching ships. Corporal John Jones, trapped on the beach at Dunkirk, announces the moment that he spotted one of the little ships from the sand dunes as he waited wearily for help. He was rescued by the Barnacle skippered by Mr Whittaker. In an old boat, with a troublesome engine, the group of twelve men and the skipper sailed to Ramsgate. When he landed Jones kissed the ground thankful to be back on English soil. Private Arthur Patis who was rescued by the Ramsgate Lifeguards was greeted by the Women of the Women’s Voluntary Service (WVS) who plied the soldiers with tea and Lion’s fruit pies.
 
 {% include embed/image.html src="wc:Dunkirk Little Ships - Ramsgate May 2025 (168c).jpg" aspect="0.785" caption="Rummy III - Dunkirk Little Ships - Ramsgate May 2025" attribution="Storye book" %}
 
-Then the story of Eric Martin, an 18-year-old who was an electrician’s apprenticeship at Ramsgate who remembered seeing a destroyer at the Pier Head and the generosity of the townsfolk who offered food and cigarettes to the returning troops. Black and white footage of soldiers disembarking fade in and out of the screen.  Pegwell Bay was crammed with larger vessels. Doreen Miles remembers her grandparents loading up her brother’s pushchair and an old pram with blankets and bedlinen and throwing the blankets, pillows and sheets over the railings on the promenade to the soldiers arriving below. 
+Then we hear the story of Eric Martin, an 18-year-old who was an electrician’s apprenticeship at Ramsgate who remembered seeing a destroyer at the Pier Head and the generosity of the townsfolk who offered food and cigarettes to the returning troops. Black and white footage of soldiers disembarking fade in and out of the screen.  Pegwell Bay was crammed with larger vessels. Doreen Miles remembers her grandparents loading up her brother’s pushchair and an old pram with blankets and bedlinen and throwing the blankets, pillows and sheets over the railings on the promenade to the soldiers arriving below. 
 
 The building returns to darkness and an eerie column of soldiers begins to walk across the scene from right to left. In the centre, black and white photographs of servicemen, gravestones and the ships that some of them served on represent the fallen who are buried in Ramsgate. The clock above appears like the moon in the dark night’s sky. 11,00 killed, 338,226 rescued, 43,000 of them through Ramsgate 
 
 The voice of Winston Churchill in the House of Commons pierces the air as footage of men climbing up gangways accompanies his report of the Dunkirk evacuation, speaking of the ‘devotion and courage’ of those who braved the night waters to sail to Dunkirk and rescue the troops trapped on the beaches by the enemy’s advance. Smiling soldiers drink tea and are offered food from grateful well-wishers on a railway platform. 
 
-Red white and blue  pendants to left and right accompany images of Churchill as he says that “We shall never surrender” 
-
-We return to the blue, grey sea and the lights flickering on the sea, as the crowd watching gives a rapturous applause and those who have silently wept surreptitiously wipe their eyes on their coat sleeves. 
-
-
+Red white and blue  pendants to left and right accompany images of Churchill as he says that “We shall never surrender”. We return to the blue, grey sea and the lights flickering on the sea, as the crowd watching gives a rapturous applause and those who have silently wept surreptitiously wipe their eyes on their coat sleeves. 
