@@ -11,11 +11,15 @@ permalink: /broadstairs/emily-eden/
 image: https://upload.wikimedia.org/wikipedia/commons/8/8a/From_the_gardens%2C_Broadstairs%2C_England.jpg 
 ---
 
-**Miss Emily Eden to Lady Charlotte Greville. Thursday, October 1830.** [^ref1]
-
-'We enjoyed our Broadstairs so very much, and all the more,because it was not Ramsgate. I took the look of Ramsgate in great aversion. We knew nobody at Broadstairs but Lady G. de Roos, who was without her husband, and therefore very glad to be a great deal with us. The quiet and dowdiness of Broadstairs is a great charm. We were out all day, sketching or poking about for shells. I wonder whether you went to Shellness, a little creek whose shores are covered with shells - not a stone or a bit of sand - all shells. I never saw such a curious place. We made one long expedition to Dover, and if I ever went to the sea on my own account, I mean not on a visit to anybody, I should pitch my tent at Dover. It is so very beautiful and so cheerful looking. We stayed a fortnight at Broadstairs.' 
+After the death of her brother, Lord Auckland, in January 1849 and the death of her beloved sister, Fanny, three months later, Emily Eden, poet and novelist, spent the next twenty years, dividing her time between her home in London and a cottage in Broadstairs, where she lived with her niece Lena and five servants. Emily had visted Broadstairs with her sister Fanny in 1830, writing "with the utmost courage, the greatest magnaminity, Fanny and I stepped into a Margate steamboat and set off on a visit to Mrs Vansittart at Broadstairs ... To my utter surprise I was not the least sick."[^ref1] She wrote to Lady Charlotte Greville afterwards:
+<br><br>
+'We enjoyed our Broadstairs so very much, and all the more, because it was not Ramsgate. I took the look of Ramsgate in great aversion. We knew nobody at Broadstairs but Lady G. de Roos, who was without her husband, and therefore very glad to be a great deal with us. The quiet and dowdiness of Broadstairs is a great charm. We were out all day, sketching or poking about for shells. I wonder whether you went to Shellness, a little creek whose shores are covered with shells - not a stone or a bit of sand - all shells. I never saw such a curious place. We made one long expedition to Dover, and if I ever went to the sea on my own account, I mean not on a visit to anybody, I should pitch my tent at Dover. It is so very beautiful and so cheerful looking. We stayed a fortnight at Broadstairs.'[^ref2] 
 
 {% include embed/image.html src="wc:Unknown artist - View of Dover, Kent, from the Guston Road - Oil-T-4 - Dover Collections.jpg" %}
+
+By the time she moved to Broadstairs in 1850, Emily was 53 and her health was deteriorating. She wrote to Lady Theresa Lewis: "My health is in a very poor state, and I am obliged to give up going down to the Baths, but a cottage always has room for everything; and we are turning what is by courtesy called a Greenhouse, into a bath-room, opening out of my sitting-room. I like the place, and its quiet and bracing air and its busy sea. It is always covered with ships, and I do not regret the move."[^ref3]
+
+The Semi-Detached House (1859) and The Semi-Attached Couple (1860)
 
 **Dickens to the Hon. Miss Emily Eden. 25 May 1857.**[^ref2]
 
@@ -32,6 +36,7 @@ Violet Dickinson.  _Miss Eden's letters 1797-1869_.  London: Macmillan. 1919. 20
 
 ## References 
 
-[^ref1]: Violet Dickinson.  _Miss Eden's letters 1797-1869_.  London: Macmillan. 1919. 202.
+{ref1]: Miss Eden to Miss Villiers. Wednesday, September 1830, in Violet Dickinson.  _Miss Eden's letters 1797-1869_.  London: Macmillan. 1919. 199
+[^ref1]: Miss Emily Eden to Lady Charlotte Greville. Thursday, October 1830, in Violet Dickinson.  _Miss Eden's letters 1797-1869_.  London: Macmillan. 1919. 202.
 [^ref2]: Graham Storey and Kathleen Tillotson, eds. _The Pilgrim Edition: The Letters of Charles Dickens_. Volume 8: 1856-1858. Oxford: Clarendon Press, 1995. 332-333.
 [^ref3]: The editors of the Pilgrim edition note this must have been autumn 1851.
