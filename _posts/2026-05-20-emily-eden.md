@@ -1,5 +1,5 @@
 ---
-title: Hon. Emily Eden
+title: "Hon. Emily Eden"
 description: A letter from Charles Dickens to the Hon. Emily Eden
 author: Professor Carolyn Oulton
 date: 2026-05-20
@@ -7,6 +7,7 @@ categories: [ Broadstairs ]
 tags: [ Dickens, Writers ]
 published: true
 featured: false
+permalink: /broadstairs/emily-eden/
 image: https://upload.wikimedia.org/wikipedia/commons/8/8a/From_the_gardens%2C_Broadstairs%2C_England.jpg 
 ---
 
