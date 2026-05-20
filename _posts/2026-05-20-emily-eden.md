@@ -8,7 +8,7 @@ tags: [ ]
 published: false
 featured: false
 media_subpath: /assets/img
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/f/fe/Dane_John_Hill.jpg
   path: 
   alt: 
 ---
