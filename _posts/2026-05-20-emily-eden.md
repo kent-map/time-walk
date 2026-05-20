@@ -1,6 +1,6 @@
 ---
-title: "The Honourable Emily Eden"
-description: The Honourable Emily Eden's correspondence referencing Broadstairs
+title: "The Hon. Emily Eden"
+description: The Hon. Emily Eden's correspondence referencing Broadstairs
 author: Professor Carolyn Oulton
 date: 2026-05-20
 categories: [ Broadstairs ]
