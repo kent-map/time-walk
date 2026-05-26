@@ -10,7 +10,7 @@ featured: false
 permalink: /broadstairs/gladys-waterer-biography/
 media_subpath: /assets/img
 image:
-  path: https://upload.wikimedia.org/wikipedia/commons/a/a6/Dickens-museum.jpg
+  path: https://upload.wikimedia.org/wikipedia/commons/1/1d/Dickens_House_Broadstairs_Kent_England.jpg
   alt: 
 juncture: true # change to true to enable Juncture extensions
 ---
@@ -33,7 +33,8 @@ While her name appears only sporadically in newspapers and most often in connect
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/982eba99-332b-4bcd-8cbe-a328476822ca.jpg" aspect="0.456" caption="Gladys Waterer" attribution="By kind permission of Broadstairs Museum" %}
 
 _The Third Chance_ reflects her own interest in the politics of local amateur dramatic productions. Much of the tension devolves from the heroine Ethel’s triumphantly redemptive love for an alcoholic actor who once saved her from a teenage seduction and who is drafted in to make up the numbers in a provincial performance. Less than subtly disguised as Seagate, Eastgate and Haregate, the neighbouring towns of Margate, [Ramsgate](Q736439) and [Broadstairs](Q922739) provide an idyllic coastal setting, inflected with a keen and often witty observation of local culture. 
-
+<br>
+Banner image credit: Acabashi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
 
 ### Bibliography
 
