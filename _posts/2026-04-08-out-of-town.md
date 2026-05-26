@@ -5,7 +5,7 @@ author: Charles Dickens
 date: 2026-04-08
 categories: [ Folkestone ]
 tags: [ seaside ]
-published: true
+published: false
 featured: false
 permalink: /folkestone/out-of-town/
 media_subpath: /assets/img
