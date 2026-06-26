@@ -30,8 +30,9 @@ In 1857, Charles Dickens wrote to Emily.
 
 ## Bibliography
 
-Graham Storey and Kathleen Tillotson, eds. _The Pilgrim Edition: The Letters of Charles Dickens_. Volume 8: 1856-1858. Oxford: Clarendon Press, 1995. 332-333.
-Violet Dickinson.  _Miss Eden's letters 1797-1869_.  London: Macmillan. 1919. 202.
+Brigid Allen. _George and Emily Eden_. The Lutterworth Press, 2024.   
+Violet Dickinson.  _Miss Eden's letters 1797-1869_.  London: Macmillan. 1919. 202.   
+Graham Storey and Kathleen Tillotson, eds. _The Pilgrim Edition: The Letters of Charles Dickens_. Volume 8: 1856-1858. Oxford: Clarendon Press, 1995. 332-333.   
 
 
 ## References 
