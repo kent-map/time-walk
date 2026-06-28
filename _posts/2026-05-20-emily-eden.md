@@ -1,7 +1,7 @@
 ---
 title: "The Hon. Emily Eden"
 description: The Hon. Emily Eden at Eden Villa
-author: Carolyn Oulton and Michelle Crowther
+author: Michelle Crowther and Carolyn Oulton 
 date: 2026-05-20
 categories: [ Broadstairs ]
 tags: [ Dickens, Writers ]
@@ -11,7 +11,7 @@ permalink: /broadstairs/emily-eden/
 image: https://upload.wikimedia.org/wikipedia/commons/8/8a/From_the_gardens%2C_Broadstairs%2C_England.jpg 
 ---
 
-After the death of her brother, Lord Auckland, in January 1849 and the death of her beloved sister, Fanny, three months later, Emily Eden, poet and novelist, spent the next twenty years, dividing her time between her home in London and a cottage in Broadstairs, where she lived with her niece Lena and five servants. Emily had visted Broadstairs with her sister Fanny in 1830, writing "with the utmost courage, the greatest magnaminity, Fanny and I stepped into a Margate steamboat and set off on a visit to Mrs Vansittart at Broadstairs ... To my utter surprise I was not the least sick."[^ref1] She wrote to Lady Charlotte Greville afterwards:
+After the death of her brother, Lord Auckland, in January 1849 and the death of her beloved sister, Fanny, three months later, poet and novelist Emily Eden divided her time between her home in London and a cottage in Broadstairs. For the next twenty years she lived here with her niece Lena and five servants.  Emily had visited Broadstairs with her sister Fanny in 1830, writing "with the utmost courage, the greatest magnaminity, Fanny and I stepped into a Margate steamboat and set off on a visit to Mrs Vansittart at Broadstairs ... To my utter surprise I was not the least sick."[^ref1] She wrote to Lady Charlotte Greville afterwards:
 <br><br>
 'We enjoyed our Broadstairs so very much, and all the more, because it was not Ramsgate. I took the look of Ramsgate in great aversion. We knew nobody at Broadstairs but Lady G. de Roos, who was without her husband, and therefore very glad to be a great deal with us. The quiet and dowdiness of Broadstairs is a great charm. We were out all day, sketching or poking about for shells. I wonder whether you went to Shellness, a little creek whose shores are covered with shells - not a stone or a bit of sand - all shells. I never saw such a curious place. We made one long expedition to Dover, and if I ever went to the sea on my own account, I mean not on a visit to anybody, I should pitch my tent at Dover. It is so very beautiful and so cheerful looking. We stayed a fortnight at Broadstairs.'[^ref2] 
 
