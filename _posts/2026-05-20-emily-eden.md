@@ -19,7 +19,7 @@ After the death of her brother, Lord Auckland, in January 1849 and the death of 
 
 On learning that the Great Exhibition of 1851 was to take place in Hyde Park and fearing the disruption it might bring, Emily decided to decamp to the coast.[^ref3] She was 53 and her health was deteriorating. She wrote to Lady Theresa Lewis: "My health is in a very poor state, and I am obliged to give up going down to the Baths, but a cottage always has room for everything; and we are turning what is by courtesy called a Greenhouse, into a bath-room, opening out of my sitting-room. I like the place, and its quiet and bracing air and its busy sea. It is always covered with ships, and I do not regret the move."[^ref4] 
 <br><br>
-The cottage was extended and the garden planted with geraniums and mignonettes. It was later renamed 'Villette' after Charlotte Bronte's novel.[^ref5]  Her neighoubrs were  Edward and Ann Birch, a farmer and his wife - socially, very different to her London neighbours. However, Emily enjoyed visitors from London, including Lady Grey, Lady Ellesmere, and in the Autumn of 1851, [Charles Dickens]({{ site.baseurl }}/ https://www.kent-maps.online/categories/dickens/) called whilst holidaying at Fort House.
+The cottage was extended and the garden planted with geraniums and mignonettes. It was later renamed 'Villette' after Charlotte Bronte's novel.[^ref5]  Her neighbours were  Edward and Ann Birch, a farmer and his wife - socially, very different to her London neighbours. However, Emily enjoyed visitors from London, including Lady Grey, Lady Ellesmere, and in the Autumn of 1851, [Charles Dickens]({{ site.baseurl }}/ https://www.kent-maps.online/categories/dickens/) called whilst holidaying at Fort House.
 
 In 1857, Dickens wrote to Emily:
 
