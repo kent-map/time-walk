@@ -5,11 +5,11 @@ author: William R. Hughes
 date: 2026-08-05
 categories: [ Broadstairs ]
 tags: [ Literary Tourism ]
-published: false
+published: true
 featured: false
 media_subpath: /assets/img
 image:
-  path: 
+  path: https://upload.wikimedia.org/wikipedia/commons/8/8a/From_the_gardens%2C_Broadstairs%2C_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
   alt: 
 ---
 Broadstairs has good sands, precipitous chalk cliffs, and a very fine sea-view. The railway station is about a mile from the pier, and the town is approached by a well-kept road ("the main street of our watering-place. . . . You may know it by its being always stopped up with donkey chaises. Whenever you come here and see the harnessed donkeys eating clover out of barrows drawn completely across a narrow thoroughfare, you may be quite sure you are in our High Street"), with villas standing in their own gardens, most of which are brightened by summer flowers, notably the blue clematis (Clematis Jackmani) and by those charming seaside evergreens the Escallonia and the Euonymus. As we near the sea, the shops become more numerous, and, on the right-hand side, we have no difficulty in finding (although we heard it[326] had been altered considerably) the house "No. 12, High Street," in which Dickens lived when he first visited Broadstairs. It is a plain little dwelling of single front, with a small parlour looking into the street, and has one story over—just the place that seems suited to the financial position of the novelist when he was commencing life. The house is now occupied by Mr. Bean, plumber and glazier, whose wife courteously shows us over it, and into the back yard and little garden, kindly giving us some pears from an old tree growing there, whereon we speculate as to whether Dickens himself had ever enjoyed the fruit from the same old tree. He appears to have lived in this house during his visits in 1837 and 1838. We ask the good lady if she is aware that Charles Dickens had formerly stayed in her house, and she replies in the negative, so we recommend her to get her husband to put up a tablet outside to the effect "Charles Dickens lived here, 1837," in imitation of the example of the Society of Arts in Furnival's Inn. There can be no doubt as to the identity of the house, for we take the precaution of ascertaining that the numbers have not been altered. 
