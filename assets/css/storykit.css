@@ -70,10 +70,6 @@ aside#panel-wrapper {
         clear: both;
     }
 
-    .col2 .post-content {
-        margin-bottom: 60dvh;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -339,6 +335,8 @@ div figcaption {
     right: 0;
     width: calc(50% - 8em);
     height: 50dvh;
+    max-height: calc(100dvh - 60px);
+    align-self: start;
     /* padding-top: 1em; */
     align-items: start;
     background: var(--main-bg);
@@ -398,6 +396,17 @@ div figcaption {
 
 [data-mode="dark"] .col2 .post-content {
     background: var(--main-bg);
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-mode="light"]) .col2 .post-content,
+    html:not([data-mode="light"]) .col2 .active {
+        background: var(--main-bg);
+    }
+
+    html:not([data-mode="light"]) .col2 .active {
+        border-color: var(--main-border-color, #444);
+    }
 }
 
 .col2 .right {
@@ -829,7 +838,6 @@ iframe[src^="https://cdn.knightlab.com/"] {
     padding: 0;
     border: 0;
 }
-
 .preview-img img {
     width: 100%;
 }

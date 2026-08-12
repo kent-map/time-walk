@@ -74,6 +74,11 @@ script_includes:
   [data-mode="dark"] #topbar-wrapper {
       background: var(--main-bg) !important;
   }
+  @media (prefers-color-scheme: dark) {
+    html:not([data-mode="light"]) #topbar-wrapper {
+      background: var(--main-bg) !important;
+    }
+  }
 
   .sidebar-bottom > [href^="https://github.com"] {
     display: none !important;
@@ -100,6 +105,13 @@ script_includes:
 {% endif %}
 
 <article class="px-1" data-toc="{{ enable_toc }}">
+
+  {%- if page.downloads == nil -%}
+    {%- if site.storykit.downloads != nil -%}{%- assign article_downloads_enabled = site.storykit.downloads -%}
+    {%- elsif site.juncture.downloads != nil -%}{%- assign article_downloads_enabled = site.juncture.downloads -%}
+    {%- else -%}{%- assign article_downloads_enabled = true -%}
+    {%- endif -%}
+  {%- else -%}{%- assign article_downloads_enabled = page.downloads -%}{%- endif -%}
   
   {% if page.storykit != false %}
 
@@ -118,12 +130,7 @@ script_includes:
       {% else %}{%- assign cite_enabled = site.storykit.cite -%}{%- endif -%}
     {%- else -%}{%- assign cite_enabled = page.storykit.cite -%}{%- endif -%}
 
-    {%- if page.storykit.pdf == nil -%}
-      {%- if site.storykit.pdf == nil -%}{%- assign pdf_download_enabled = true -%}
-      {% else %}{%- assign pdf_download_enabled = site.storykit.pdf -%}{%- endif -%}
-    {%- else -%}{%- assign pdf_download_enabled = page.storykit.pdf -%}{%- endif -%}
-
-    <!-- toolbar_enabled={{toolbar_enabled}} mode_toggle_enabled={{mode_toggle_enabled}} cite_enabled={{cite_enabled}} pdf_download_enabled={{pdf_download_enabled}} -->
+    <!-- toolbar_enabled={{toolbar_enabled}} mode_toggle_enabled={{mode_toggle_enabled}} cite_enabled={{cite_enabled}} article_downloads_enabled={{article_downloads_enabled}} -->
     {% if toolbar_enabled %}
       <div id="toolbar" role="toolbar" aria-label="Post tools">
         <div class="toolbar-inner">
@@ -144,18 +151,28 @@ script_includes:
             </sl-tooltip>
           {% endif %}
 
-          {% if pdf_download_enabled %}
-            <sl-tooltip content="Download PDF" placement="bottom" hoist>
-              <span class="toolbar-item">
-                {% include pdf-download.html %}
-              </span>
-            </sl-tooltip>
+          {% if article_downloads_enabled %}
+            <span class="toolbar-item">
+              {% include article-download.html %}
+            </span>
           {% endif %}
 
         </div>
       </div>
     {% endif %}
 
+  {% endif %}
+
+  {% if page.storykit == false %}
+    {% if article_downloads_enabled %}
+      <div id="toolbar" role="toolbar" aria-label="Post tools">
+        <div class="toolbar-inner">
+          <span class="toolbar-item">
+            {% include article-download.html %}
+          </span>
+        </div>
+      </div>
+    {% endif %}
   {% endif %}
 
   <header>
@@ -179,9 +196,14 @@ script_includes:
         </span>
       {% endif %}
 
-      {% if page.image and page.show_header_image != false %}
+      {% assign header_image = page.image.path %}
+      {% unless header_image %}
+        {% capture header_image %}{{ page.image }}{% endcapture %}
+        {% if header_image contains '=>' %}{% assign header_image = nil %}{% endif %}
+      {% endunless %}
+      {% if header_image and header_image != empty and page.show_header_image != false %}
 
-        {% assign src = page.image.path | default: page.image %}
+        {% assign src = header_image %}
         
         {%- assign p4 = src | slice: 0, 4 -%}
         {%- assign is_abs = false -%}
@@ -363,30 +385,6 @@ script_includes:
 
     import { isMobile, autoFloat, makeEntityPopups, wrapAdjacentEmbedsAsTabs, addActionLinks, restructureMarkdownToSections } from "{{ '/assets/js/storykit.js' | relative_url }}";
 
-    function moveToolbarIntoTopbar() {
-      const toolbar = document.getElementById("toolbar");
-      const topbar = document.getElementById("topbar");
-      if (!toolbar || !topbar) return;
-
-      if (toolbar.dataset.moved === "true") return;
-
-      const searchTrigger = document.getElementById("search-trigger");
-      const searchEl = document.getElementById("search");
-
-      toolbar.classList.add("topbar-toolbar");
-      toolbar.dataset.moved = "true";
-
-      if (searchTrigger && searchTrigger.parentElement === topbar) {
-        topbar.insertBefore(toolbar, searchTrigger);
-      } else if (searchEl && searchEl.parentElement === topbar) {
-        topbar.insertBefore(toolbar, searchEl);
-      } else {
-        topbar.appendChild(toolbar);
-      }
-      toolbar.style.display = 'inline-block';
-      toolbar.style.marginLeft = 'auto';
-    }
-
     const mainWrapper = document.getElementById('main-wrapper');
     let mode_toggle = ('{{ page.storykit.mode_toggle }}' || '{{ site.storykit.mode_toggle }}' || 'true').toLowerCase() === 'true';
     let mode = mode_toggle
@@ -415,8 +413,37 @@ script_includes:
     addActionLinks();
     if (doAutoFloat && !isMobile) autoFloat();
 
-    document.addEventListener("DOMContentLoaded", moveToolbarIntoTopbar);
-    window.addEventListener("pageshow", moveToolbarIntoTopbar);
-
   </script>
 {% endif %}
+
+<script>
+  (function () {
+    function moveToolbarIntoTopbar() {
+      const toolbar = document.getElementById('toolbar');
+      const topbar = document.getElementById('topbar');
+      if (!toolbar || !topbar || toolbar.dataset.moved === 'true') return;
+
+      const searchTrigger = document.getElementById('search-trigger');
+      const searchEl = document.getElementById('search');
+      toolbar.classList.add('topbar-toolbar');
+      toolbar.dataset.moved = 'true';
+
+      if (searchTrigger && searchTrigger.parentElement === topbar) {
+        topbar.insertBefore(toolbar, searchTrigger);
+      } else if (searchEl && searchEl.parentElement === topbar) {
+        topbar.insertBefore(toolbar, searchEl);
+      } else {
+        topbar.appendChild(toolbar);
+      }
+      toolbar.style.display = 'inline-block';
+      toolbar.style.marginLeft = 'auto';
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', moveToolbarIntoTopbar, { once: true });
+    } else {
+      moveToolbarIntoTopbar();
+    }
+    window.addEventListener('pageshow', moveToolbarIntoTopbar);
+  })();
+</script>
