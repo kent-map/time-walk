@@ -28,7 +28,7 @@ script_includes:
   <div id="toolbar">
     {% include col2-toggle.html %}
     {% include cite-this.html %}
-    {% include pdf-download.html %}
+    {% include article-download.html %}
   </div>
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>
@@ -51,8 +51,13 @@ script_includes:
       </span>
       {% endif %}
 
-      {% if page.image and page.include_header_image != false %}
-      {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+      {% assign header_image = page.image.path %}
+      {% unless header_image %}
+        {% capture header_image %}{{ page.image }}{% endcapture %}
+        {% if header_image contains '=>' %}{% assign header_image = nil %}{% endif %}
+      {% endunless %}
+      {% if header_image and header_image != empty and page.include_header_image != false %}
+      {% capture src %}src="{{ header_image }}"{% endcapture %}
       {% capture class %}class="preview-img{% if page.image.no_bg %} no-bg{% endif %}"{% endcapture %}
       {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
 
@@ -64,7 +69,9 @@ script_includes:
         <div class="post-hero-media">
           <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
         </div>
-        <figcaption class="text-center pt-2 pb-2">Monument Valley</figcaption>
+        {% if page.image.alt %}
+          <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+        {% endif %}
       </figure>
 
       {% endif %}

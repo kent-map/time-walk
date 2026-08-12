@@ -132,23 +132,22 @@
       {% include media-url.html src=_src subpath=page.media_subpath %}
     {%- endcapture -%}
 
-    <!-- refactor-content.html: _img_url={{_img_url}} -->
-
-    {% assign _path_prefix = _img_url | remove: _src %}
-
-    {% unless _src contains '//' %}
-      {% assign _final_src = _path_prefix | append: _src %}
-      {% assign _src_alt = 'src="' | append: _path_prefix %}
-      {% assign _left = _left | replace: 'src="', _src_alt %}
-    {% endunless %}
+    {% assign _final_src = _img_url | strip %}
+    {% capture _original_src_attr %}src="{{ _src }}"{% endcapture %}
+    {% capture _resolved_src_attr %}src="{{ _final_src }}"{% endcapture %}
+    {% assign _left = _left | replace: _original_src_attr, _resolved_src_attr %}
 
     {% if _lqip %}
       {% assign _lazyload = false %}
       {% assign _wrapper_class = _wrapper_class | append: ' blur' %}
 
       {% unless _lqip contains 'data:' %}
-        {% assign _lqip_alt = 'lqip="' | append: _path_prefix %}
-        {% assign _left = _left | replace: 'lqip="', _lqip_alt %}
+        {%- capture _lqip_url -%}
+          {% include media-url.html src=_lqip subpath=page.media_subpath %}
+        {%- endcapture -%}
+        {% capture _original_lqip_attr %}lqip="{{ _lqip }}"{% endcapture %}
+        {% capture _resolved_lqip_attr %}lqip="{{ _lqip_url | strip }}"{% endcapture %}
+        {% assign _left = _left | replace: _original_lqip_attr, _resolved_lqip_attr %}
       {% endunless %}
 
       <!-- add image placeholder -->

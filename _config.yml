@@ -24,6 +24,7 @@ description: >- # used by seo meta and the atom feed
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: https://kent-map.github.io # the base hostname & protocol for your site
+canonical_url: https://kent-map.github.io # stable public origin used by local exports
 
 github:
   username: # change to your GitHub username
@@ -242,4 +243,4 @@ juncture:
   wikidata_info_popups: true  # show Wikidata-style info popups for links to Wikidata entities
   toolbar: true               # show the post toolbar
   cite: true                  # show the cite button in the toolbar
-  pdf: true                   # show the pdf download button in the toolbar
+  downloads: true             # show PDF and Word article downloads in the toolbar

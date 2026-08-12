@@ -1,0 +1,55 @@
+{%- capture article_export_author -%}
+  {%- if page.author -%}
+    {{- page.author -}}
+  {%- elsif page.authors -%}
+    {{- page.authors | join: ', ' -}}
+  {%- else -%}
+    {{- site.social.name | default: site.title -}}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign article_export_hero = page.image.path -%}
+{%- unless article_export_hero -%}
+  {%- capture article_export_hero_candidate -%}{{- page.image -}}{%- endcapture -%}
+  {%- unless article_export_hero_candidate contains '=>' -%}
+    {%- assign article_export_hero = article_export_hero_candidate | strip -%}
+  {%- endunless -%}
+{%- endunless -%}
+{%- if article_export_hero -%}
+  {%- capture article_export_hero_url -%}
+    {%- include media-url.html src=article_export_hero subpath=page.media_subpath -%}
+  {%- endcapture -%}
+{%- endif -%}
+
+<div class="article-download"
+  data-article-export
+  data-title="{{ page.title | escape }}"
+  data-description="{{ page.description | default: '' | strip_html | escape }}"
+  data-author="{{ article_export_author | strip | escape }}"
+  data-published="{{ page.date | date: '%-d %B %Y' }}"
+  data-site-title="{{ site.title | escape }}"
+  data-source-url="{{ site.canonical_url }}{{ page.url | relative_url | escape }}"
+  data-hero-image="{{ article_export_hero_url | strip | escape }}"
+  data-hero-caption="{{ page.image.alt | default: '' | escape }}"
+  data-jszip-url="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"
+  data-jszip-integrity="sha384-+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG">
+  <button type="button" class="article-download__trigger" aria-haspopup="menu" aria-expanded="false"
+    aria-label="Download this article" title="Download this article">
+    <i class="fas fa-download" aria-hidden="true"></i>
+  </button>
+
+  <div class="article-download__menu" role="menu" aria-label="Download formats" hidden>
+    <button type="button" role="menuitem" data-article-export-format="pdf">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i>
+      <span><strong>PDF</strong><small>Print or save as PDF</small></span>
+    </button>
+    <button type="button" role="menuitem" data-article-export-format="docx">
+      <i class="fas fa-file-word" aria-hidden="true"></i>
+      <span><strong>Word</strong><small>Download a .docx file</small></span>
+    </button>
+  </div>
+
+  <span class="article-download__status visually-hidden" aria-live="polite"></span>
+</div>
+
+<link rel="stylesheet" href="{{ '/assets/css/article-export.css' | relative_url }}?v=20260811i">
+<script src="{{ '/assets/js/article-export.js' | relative_url }}?v=20260811i" defer></script>
