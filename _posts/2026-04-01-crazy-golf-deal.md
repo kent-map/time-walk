@@ -11,7 +11,7 @@ media_subpath: /assets/img
 image:
   path: 
   alt: 
-juncture: false # change to true to enable Juncture extensions
+entreluma: false # change to true to enable Entreluma extensions
 ---
 
 Playing crazy golf in front of the Deal pier in Kent. Photograph estimated to have been taken in the late 1950s or early 1960s. 

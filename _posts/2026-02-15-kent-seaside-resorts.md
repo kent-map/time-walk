@@ -10,7 +10,7 @@ layout: post
 permalink: /kent/kent-seaside-resorts
 published: true
 featured: false
-juncture: true
+entreluma: true
 ---
 
 As the fashionable ‘water cure’ of spas such as Bath and Tunbridge Wells moved coastwards in the late eighteenth and nineteenth centuries, so a number of obscure fishing villages reinvented themselves as seaside resorts. Kent was an obvious beneficiary of this trend, with Gravesend in the Medway area and no fewer than seven resorts along the East coast gaining traction across the period: visitors were drawn in large numbers to [Broadstairs](Q922739), [Ramsgate](Q736439) and [Margate](Q618045) in Thanet, and to [Folkestone](Q375314) and [Dover](Q179224) in Sheppey. While [Whitstable](Q964785), Hythe and [Herne Bay](Q929286) never offered serious competition to the Sussex resorts of Brighton and Eastbourne, they too attracted a number of summer visitors.

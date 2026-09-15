@@ -12,7 +12,7 @@ media_subpath: /assets/img
 image:
   path: https://upload.wikimedia.org/wikipedia/commons/1/1d/Dickens_House_Broadstairs_Kent_England.jpg
   alt: 
-juncture: true # change to true to enable Juncture extensions
+entreluma: true # Entreluma extensions enabled
 ---
 
 ‘Who wants to know what everything means? Novels are not meant to be real life, only stories to amuse us. It is wrong to take such things seriously.”

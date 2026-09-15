@@ -9,7 +9,7 @@ image: wc:Deal_Beach_from_Pier_(Looking_North)_(NBY_443007).jpg
 layout: post
 permalink: /deal/deal-by-the-sea
 published: true
-juncture: true
+entreluma: true
 ---
 
 
@@ -41,4 +41,3 @@ For the social history of Deal pubs and pub life in Victorian and Edwardian Deal
 A detailed history of individual pubs can be found Steve Glover and Michael Rogers, _The Old Pubs of Deal and Walmer (with Kingsdown and Mongeham)_ (Whitstable, 2010)
 
 A recent illustrated history of Deal as a whole is Gregory Holyoake _Secret Deal and Walmer_ (Amberley, 2021)
-

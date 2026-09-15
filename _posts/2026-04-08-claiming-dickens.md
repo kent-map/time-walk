@@ -10,7 +10,7 @@ featured: false
 image: https://upload.wikimedia.org/wikipedia/commons/1/1d/Dickens_House_Broadstairs_Kent_England.jpg
 layout: post
 permalink: /kent/claiming-dickens/
-juncture: true
+entreluma: true
 ---
 
 The Victorians were quick to realise that writers’ houses are effective ‘tools to stimulate one’s imagination. They have this function for the authors who design and inhabit them, and it works the same way with the people who later visit them’.[^ref1] Gad’s Hill in Cobham, where Dickens spent the last years of his life, continues to attract attention (as does the famous writing chalet now situated in nearby Rochester). The idea of reading about an author’s ‘Homes and Haunts’ alongside favourite books was popular with readers from the 1840s, and ultimately gave rise to what was termed ‘literary pilgrimage’. By the 1880s, the trend for visiting other sites associated with famous writers was well underway, creating ‘an increasingly dense cultural map.’[^ref2]

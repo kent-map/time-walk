@@ -10,7 +10,7 @@ featured: false
 permalink: /deal/quaker-of-deal/
 image: wc:North Foreland - Deal - btv1b53010670p.jpg
 layout: post
-juncture: true
+entreluma: true
 toc: false  
 ---
 

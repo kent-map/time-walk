@@ -8,7 +8,7 @@ tags: [ Broadstairs, Dickens ]
 published: true
 featured: true
 image: "https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/IMG_1361.JPG"
-juncture: true 
+entreluma: true
 ---
 
 Archival projects are great for disrupting hierarchies, for several reasons. Perhaps there is that one piece of evidence everyone has been looking for. But a bit like a game of Pass the Parcel, no one quite knows who will pick up the envelope with the vital clue inside, just at the right moment. There are different kinds of knowledge, whether that is gained through personal memory, a museum qualification or research into a specific period. Finding ways to collaborate involves having conversations and asking questions.

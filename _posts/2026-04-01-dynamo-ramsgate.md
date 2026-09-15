@@ -8,7 +8,7 @@ tags: [ Ramsgate World War 2 ]
 published: true
 featured: true
 image: https://upload.wikimedia.org/wikipedia/commons/8/82/Dynamo_-The_Spirit_of_Ramsgate.jpg
-juncture: true
+entreluma: true
 ---
 
 The Time Walk project commenced with a light and sound show commemorating Ramsgate's role in the Dunkirk evacuation at The Clock House Museum, Ramsgate on the 16 of May 2025.  The story of the Little Ships and the WWII rescue of British and allied troops from the beaches of Dunkirk was retold with stunning projections, set to a soundtrack, onto the Clock House Museum. The projections were created through historic images and archival footage collated through research by Projection Artist, Howard Griffin of [Illumiscape Ltd](https://illumiscape.co.uk/). Using projection mapping - a technique that displays images or video onto non-flat surfaces such as buildings - events that took place in the 1930s and 40s were brought to life, including the declaration of war with Germany, and then the events of the Operation Dynamo rescue of May and June 1940. 
