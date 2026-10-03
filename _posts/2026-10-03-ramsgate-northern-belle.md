@@ -1,5 +1,5 @@
 ---
-title: The Northern Belle Rescue 1857
+title: "The Northern Belle Rescue 1857"
 description: An article about the Northern Belle rescue of 1857
 author: JM – Ramsgate Clock House Volunteer
 date: 2026-01-01
