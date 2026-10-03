@@ -7,7 +7,7 @@ categories: [ Ramsgate ]
 tags: [ shipwrecks ]
 published: true
 featured: false
-image: wc: Rescued Crew of the Northern Belle, 1857.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/b/bf/The_lifeboat_paraded_through_Broadstairs_after_the_rescue_-_illustration_from_the_Dickens_House_Museum_collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
 entreluma: true
 ---
 
