@@ -8,6 +8,7 @@ tags: [ shipwrecks ]
 published: true
 featured: false
 image: wc: Rescued Crew of the Northern Belle, 1857.jpg
+entreluma: true
 ---
 
 'The Northern Belle' was an American Transatlantic ship built in 1854. Early in January 1857, under Captain Tite, Master of The Vessel, the ship laden with cargo, was parted from her anchor and driven onto rocks. The ‘Belle’ was seen from the shore at daylight, with 23 people lashed to the ship’s remaining mast. Three Luggers the ‘Ocean’,’ Victory’ and ‘Eclipse’ went initially to assist 'The Northern Belle'. Five seamen from these Luggers, were put onboard the Belle to aid the floundering ship. 
