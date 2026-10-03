@@ -7,7 +7,6 @@ categories: [ Ramsgate ]
 tags: [ shipwrecks ]
 published: true
 featured: false
-media_subpath: /assets/img
 image: wc: Rescued Crew of the Northern Belle, 1857.jpg
 ---
 
@@ -15,7 +14,7 @@ image: wc: Rescued Crew of the Northern Belle, 1857.jpg
 <br><br>
 Two Lifeboat Luggers followed these Luggers; the ‘Mary White’ and the ‘Culmer White’. The two Lifeboats had to be manhandled and dragged by horses for two miles to a launching site at Kingsgate Bay. The route involved crossing the hilly terrain (covered in snow) with North Easterly gale force winds impeding their journey. The 'Mary White' and the 'Culmer White' made three attempts to rescue the ship and those clinging to life aboard the 'Belle'.
 
-Rescue of the Crew of the Northern Belle 1857.jpg
+{% include embed/image.html src="wc:Rescue of the Crew of the Northern Belle 1857.jpg" aspect="0.755" caption="Rescue of the Crew of the Northern Belle" %}
 
 During the valiant rescue operation, the 'Victory' was swamped by the heavy seas and sank, taking with her, its crew of nine sailors and fishermen. These men, all from Margate, left their widows and more than 40 children fatherless. The whole incident was reported nationally and internationally. The cost of their service, to help other sailors was immeasurable, for their loved ones and for their community. In recognition of all the seamen involved, the US Consul in London raised funds for the widows and children. Those involved with this heroic rescue received a silver medal, bible and money from the President of the USA. All aboard the ‘Belle’ were finally rescued by horse drawn surf boats and taken ashore.  
 
