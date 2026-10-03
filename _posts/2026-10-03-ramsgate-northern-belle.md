@@ -21,9 +21,11 @@ During the valiant rescue operation, the 'Victory' was swamped by the heavy seas
 
 {% include embed/image.html src="wc:The ships bell of the Northern Belle - from the Ramsgate maritime collection.jpg" aspect="0.755" caption="Ship's bell of The Northern Belle" %}
 
+{% include embed/image.html src="wc:One of the US presidential medals awarded to the lifeboat crews - from the Ramsgate maritime collection.jpg" aspect="0.755" caption="Ship's bell of The Northern Belle" %}
+
 ### References
 
-John Hilton. _Thanet - An Outline History_. Hadlow of Tonbridge, Kent, 1982.
+John Hilton. _Thanet - An Outline History_. Hadlow of Tonbridge, Kent, 1982.   
 Susan Morris. “Shipwreck of the ‘Northern Belle’ and the loss of the ‘Victory’ 2013” Empties of Thanet: www.emptageof thanet.co.uk 
 
 
