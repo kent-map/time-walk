@@ -19,7 +19,8 @@ Enclosing container class controls layout:
 
     {%- assign p3 = src | slice: 0, 3 -%}
     {%- assign is_wc = false -%}
-    {%- if p3 == "wc:" or src contains "commons.wikimedia.org" -%}
+    {%- assign src_base = src | split: "?" | first -%}
+    {%- if p3 == "wc:" or src_base contains "commons.wikimedia.org" -%}
         {%- assign is_wc = true -%}
     {%- endif -%}
 
@@ -40,9 +41,21 @@ Enclosing container class controls layout:
         {% endif %}
     {% endif %}
 
-    {% if is_dev == false and is_cloudinary_cdn == true and is_wc == false %}
+    {%- comment -%} Wikimedia rejects (429) Cloudinary fetches, so its URLs go direct. {%- endcomment -%}
+    {%- assign is_wm_direct = false -%}
+    {%- if src contains 'upload.wikimedia.org' -%}{%- assign is_wm_direct = true -%}{%- endif -%}
+    {% if is_dev == false and is_cloudinary_cdn == true and is_wc == false and is_wm_direct == false %}
       {%- assign src = site.cdn | append: '/' | append: src -%}
     {% endif %}
+
+    {%- comment -%} Local images: apply site.baseurl (e.g. GitHub Pages project sites) {%- endcomment -%}
+    {%- if is_abs == false and is_wc == false and is_cloudinary_cdn == false -%}
+        {%- assign src = src | relative_url -%}
+    {%- endif -%}
+
+    {%- if is_wc -%}
+        {%- capture src -%}{%- include media-url.html src=src width=500 -%}{%- endcapture -%}
+    {%- endif -%}
 
     {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
     {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
@@ -59,6 +72,10 @@ Enclosing container class controls layout:
                 %}
             {% endunless %}
         {% endif %}
+
+        {% unless lqip contains 'data:' or lqip contains 'http' %}
+            {% assign lqip = lqip | relative_url %}
+        {% endunless %}
 
         {% assign lqip_attr = 'lqip="' | append: lqip | append: '"' %}
     {%- endif -%}
