@@ -178,6 +178,9 @@ Charles wrote further plays for the Smock Alley theatre in Dublin as well as wor
 
 {% include embed/image.html src="wc:Hogarth-rehearsal_%282%29.png" aspect="0.991" caption="A Just View of the British Stage, 1724" %}
 
+**Michelle's story**   
+I felt that _The Fair Quaker of Deal_ was such an iconic play set around Deal beach that it would be perfect to share on the Let's Do The Time Walk Again! site. Although none of the images for this article actually came from the museum due to the age of the play, the maritime heritage is so strong in the collections, that this compliments the wonderful objects in the maritime gallery and boatyard. As co-lead on the project, I wanted to share both my digital and story-telling skills with the volunteers, and what better way than to contribute!
+
 ### References
 
 [^ref1]: Shadwell, Charles (1710) _The Fair Quaker of Deal_ p.A3
