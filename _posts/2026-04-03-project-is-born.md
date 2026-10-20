@@ -1,6 +1,6 @@
 ---
 title: A Germ of an idea.
-description: A visit to Broadstairs inspires the project.
+description: A visit to Broadstairs inspires the project. Note this article contains two videos. Click on the image and then the play button to watch.
 author: Prof. Carolyn Oulton 
 date: 2026-04-08
 categories: [ Broadstairs ]
