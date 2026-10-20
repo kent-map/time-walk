@@ -27,6 +27,6 @@ The Dickens Museum showcases a detailed recreation of Betsey Trotwood’s diminu
 
 The Dickens Museum holds wonderful collections, not all of which can be displayed at any one time. This got us thinking. The East Kent coast is extraordinarily rich in history. How might local communities work with museums, to showcase the history of their towns in new ways? We talked to staff and volunteers at Ramsgate Clock House, Sandwich Guildhall Museum and Deal Maritime Museum. One theme kept coming up – these museums held unique local collections, and wanted new ways of sharing them with the public.
 
-**About Michael**
+**Michael's Story**
 >The most interesting part of my placement was a visit to the Charles Dickens House Museum in Broadstairs, Kent. It was interesting to explore the museum and see the process up close of deciding what historical documents and books were suitable for digitisation. The skills that I learned which will be useful for the future, were how to create a visual essay of information to make it easier to understand the object in context. I also got to star in a promotional video for the School of Humanities.
 
