@@ -1,6 +1,6 @@
 ---
 title: "Dynamo: The Spirit of Ramsgate"
-description: A Lightshow to commemorate the Dunkirk Evacuation
+description: A Lightshow to commemorate the Dunkirk Evacuation. Note this article contains two videos. Click on the image and then the play button to watch.
 author: Dr Michelle Crowther
 date: 2026-04-01
 categories: [ Ramsgate ]
@@ -13,7 +13,7 @@ entreluma: true
 
 The Time Walk project commenced with a light and sound show commemorating Ramsgate's role in the Dunkirk evacuation at The Clock House Museum, Ramsgate on the 16 of May 2025.  The story of the Little Ships and the WWII rescue of British and allied troops from the beaches of Dunkirk was retold with stunning projections, set to a soundtrack, onto the Clock House Museum. The projections were created through historic images and archival footage collated through research by Projection Artist, Howard Griffin of [Illumiscape Ltd](https://illumiscape.co.uk/). Using projection mapping - a technique that displays images or video onto non-flat surfaces such as buildings - events that took place in the 1930s and 40s were brought to life, including the declaration of war with Germany, and then the events of the Operation Dynamo rescue of May and June 1940. 
 
-{% include embed/youtube.html vid="IaeaF_hh8dc&t=139s" caption="Light show commemorating Ramsgate's role in the Dunkirk evacuation" %}
+{% include embed/youtube.html vid="IaeaF_hh8dc&t=139s" caption="Video: Light" %}
 
 The lightshow coincided with the arrival and departure of the surviving Little Ships as part of the 85th anniversary celebrations of Operation Dynamo held at Ramsgate Harbour and although bad weather at sea prevented all the ships arriving on time, those that arrived received a fabulous welcome, sailing in to witness the lightshow. The "Little Ships" were a fleet of privately owned boats that assisted the evacuation of Allied troops from France, during World War II. Approximately 850 vessels, including fishing boats, pleasure craft, and tugs, participated in the operation, known as Operation Dynamo. These small vessels, unsuited for long sea voyages, played a vital role in ferrying soldiers from the beaches to larger ships, despite facing German attacks. The Clock House Museum has photographs and archival material related to these events. 
 
@@ -23,7 +23,7 @@ The lightshow began with the staccato sound of a typewriter as the date 1930 app
 
 The date 1939 then appeared on the clock face with the sense of urgency of a war room communication and the precise tones of a BBC radio announcer spoke in a calm but authoritative way ‘This is London. You will now hear a statement from the Prime Minister, Neville Chamberlain’. Neville Chamberlain, the Conservative prime minister, declares war from the Cabinet room of 10, Downing Street, which is illustrated by black and white photographs projected next to the clock tower entrance before pictures of the Prime Minister appear. Images of the invasion of Poland appear to the left whilst on the right worried families crowd around their radio to listen to the broadcast, clutching gas masks. 
 
-{% include embed/youtube.html vid="gQh4XtilJVc&t=3s" caption="1939 Radio: Chamberlain Declares War BBC Broadcast, Sep 3, 1939" %}
+{% include embed/youtube.html vid="gQh4XtilJVc&t=3s" caption="Video: 1939 Radio: Chamberlain Declares War BBC Broadcast" %}
 
 {% include embed/image.html src="https://raw.githubusercontent.com/kent-map/kmo-forum-images/main/Pepsoft_RAM250516_060.jpg" aspect="0.656" caption="Lightshow" attribution="Pepsoft" %}
 
@@ -38,3 +38,7 @@ The Citizen newspaper headline ‘Britain at War’ sweeps up the screen and eng
 The building returns to darkness and an eerie column of soldiers begins to walk across the scene from right to left. In the centre, black and white photographs of servicemen, gravestones and the ships that some of them served on represent the fallen who are buried in Ramsgate. The clock above appears like the moon in the dark night’s sky. 11,00 killed, 338,226 rescued, 43,000 of them through Ramsgate. The voice of Winston Churchill in the House of Commons pierces the air as footage of men climbing up gangways accompanies his report of the Dunkirk evacuation, speaking of the ‘devotion and courage’ of those who braved the night waters to sail to Dunkirk and rescue the troops trapped on the beaches by the enemy’s advance. Smiling soldiers drink tea and are offered food from grateful well-wishers on a railway platform. Red white and blue  pendants to left and right accompany images of Churchill as he says that “We shall never surrender”. We return to the blue, grey sea and the lights flickering on the sea, as the crowd watching gives a rapturous applause and those who have silently wept surreptitiously wipe their eyes on their coat sleeves. 
 
 {% include embed/image.html src="wc:Dynamo - The Spirit of Ramsgate 1.jpg" aspect="0.785" caption="Lightshow" attribution="Digihum" %}
+
+### References
+
+[Operation Dynamo Stunning Soundtrack and Projection](https://theisleofthanetnews.com/2025/05/17/operation-dynamo-stunning-soundtrack-and-projection-on-ramsgates-clock-house-brings-history-to-life/)
