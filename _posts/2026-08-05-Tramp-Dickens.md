@@ -9,7 +9,7 @@ published: true
 featured: false
 media_subpath: /assets/img
 image:
-  path: https://upload.wikimedia.org/wikipedia/commons/8/8a/From_the_gardens%2C_Broadstairs%2C_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+  path: https://upload.wikimedia.org/wikipedia/commons/f/f2/Edwin_Hayes_%281819-1904%29_-_Broadstairs_Harbour%2C_Kent_-_VIS.1212_-_Sheffield_Galleries_and_Museums_Trust.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
   alt: 
 ---
 Broadstairs has good sands, precipitous chalk cliffs, and a very fine sea-view. The railway station is about a mile from the pier, and the town is approached by a well-kept road ("the main street of our watering-place. . . . You may know it by its being always stopped up with donkey chaises. Whenever you come here and see the harnessed donkeys eating clover out of barrows drawn completely across a narrow thoroughfare, you may be quite sure you are in our High Street"), with villas standing in their own gardens, most of which are brightened by summer flowers, notably the blue clematis (Clematis Jackmani) and by those charming seaside evergreens the Escallonia and the Euonymus. 
