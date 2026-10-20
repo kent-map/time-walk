@@ -23,6 +23,9 @@ During the valiant rescue operation, the 'Victory' was swamped by the heavy seas
 
 {% include embed/image.html src="wc:One of the US presidential medals awarded to the lifeboat crews - from the Ramsgate maritime collection.jpg" aspect="0.755" caption="Ship's bell of The Northern Belle" %}
 
+**About J.M.**   
+Throughout my life I have been an avid history lover, I came across a painting of the Northern Belle when I became a volunteer cataloguer on The Ramsgate Clock House project in 2024. Many of the items I have worked with have given me an insight into Ramsgate’s history and its amazing marine past. The cataloguing training and support I have received has opened another world of discovery to me. As the only Royal Harbour in the UK, the refurbished Clock House will provide ongoing opportunities, for all Ramsgatonians, Thanetian’s and visitors alike, enabling them to enjoy and learn about Ramsgate’s marine past. The collection and improved facilities will provide visitors and the next generation of young Ramsgate residents opportunities to widen their understanding of their town and harbour’s significant role as a ‘Safe Harbour’ on the East Kent Coast.
+
 ### References
 
 John Hilton. _Thanet - An Outline History_. Hadlow of Tonbridge, Kent, 1982.   
