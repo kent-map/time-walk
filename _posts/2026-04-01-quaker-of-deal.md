@@ -49,17 +49,17 @@ Shadwell jokes to his patrons in the dedication of _The Fair Quaker of Deal_ "to
 {% include embed/map.html center="Q179224" zoom="12" markers="Q179224" allmaps="c7eccb646f966ca4~Moll Kent 1724" %}
 
 Lionel may not have shared his father's interest in the theatre, and Charles acknowledges his struggle to obtain a performance of _A Fair Quaker_ in his preface:
-
+<br><br>
 "This Play was writ about three Years since, and put into the Hands of a famous Comedian belonging to the Hay-Market Play-House, who took care to beat down the Value of it so much, as to offer the Author to alter it fit to appear on the Stage, on Condition he might have half the Profits of the Third Day, and the Dedication entire: that is as much as to say, that it may pass for one of his, according to Custom. The Author not agreeing to this reasonable Proposal, it lay in his Hands till the Beginning of this Winter ; when Mr. Booth read it, and lik'd it, and persuaded the Author that with a little Alteration it would please the Town".[^ref15]
 
 {% include embed/image.html src="wc:John_Wootton_%28c.1682-1764%29_-_Lionel_Sackville_%281688%E2%80%931765%29%2C_1st_Duke_of_Dorset%2C_Lord_Warden_of_the_Cinque_Ports%2C_Returning_in_Procession_to_Dover_Castle_-_129729_-_National_Trust.jpg" aspect="1.433" caption="Lionel Sackville, 1st Duke of Dorset Lord Warden of the Cinque Ports returning in procession to Dover Castle" %}
 
 'The Fair Quaker of Deal' was performed at Drury Lane Theatre, London in 1710. 
-
+<br><br>
 In Act 1 Scene 1, Captain Worthy leaves his ship at anchor in The Downs having returned from a trip abroad as part of the Virginia Fleet, which was involved in the Atlantic slave trade. The Downs is the water between Deal and the [Goodwins Sands]({{ site.baseurl }}/dickens/david-copperfield-goodwin-sands/) which provides a natural anchorage for ships waiting for a good wind. There were sometimes 300-400 ships lying at anchor and it was from here that Admiral [Sir Cloudsley Shovell]({{ site.baseurl }}/17c/17c-shovell-biography) sailed with a squadron in 1694 to bombard Dunkirk.
 <br><br>
 Worthy opens _The Fair Quaker_ with the words:
-
+<br><br>
 "Thank Heaven, I have at last reach'd my native Land. Cockswain, take care the Water be sent on Board with Expedition, and bid the Purser hasten to Dover for fresh Provisions, and let the sick men be set on Shore for the next trip."[^ref16]
 
 {% include embed/image.html src="wc:English_warships_at_anchor_in_a_calm%2C_drying_sails_RMG_BHC1009.tiff" aspect="1.395" caption="English warships at anchor in a calm, drying sails" %}
@@ -99,13 +99,13 @@ The dissolute behaviour of [Deal](Q1011096) women and the visiting sailors conti
 Worthy interjects: "Indeed the House is very notorious; why don't you frequent the India Arms?"
 <br><br>
 Flip replies: "Because all the Fops and Beardless Boys of the Navy go there; besides, I think the husband too blind, and his wife has too much sight. But Tom Cragg and I were boatswain's mates together. As to it being a bawdy-house, that is no offence to me; for all houses in sea-ports have been reckoned so, ever since I pick'd oakum".[^ref22]
-<br><br>
-It is uncertain where the Three Mariners was, but the India Arms was on the north side of King Street at its junction with Beach Street. One of the earliest references to the pub was in 1680 when the Inn Sign Tax was paid.[^ref23] 
 
 {% include embed/image.html src="wc:Sailors_drinking_in_a_crypt._Coloured_etching_by_W._Elmes._Wellcome_V0050176.jpg" aspect="1.485" caption="Sailors drinking in a crypt" %}
 
 {% include embed/map.html center="Q1011096" zoom="12" markers="Q1011096" allmaps="c7eccb646f966ca4~Moll Kent 1724" %}
 
+It is uncertain where the Three Mariners was, but the India Arms was on the north side of King Street at its junction with Beach Street. One of the earliest references to the pub was in 1680 when the Inn Sign Tax was paid.[^ref23] 
+<br><br>
 Later in the play, the Crown, the Fleecer [sic] and the Mermaid are mentioned. The Fleece and The Crown were on Beach Street and the Mermaid which offered gaming was  on Middle Street. 
 <br><br>
 [Deal](Q1011096) Mayor Thomas Powell was keen to crack down on vice in the town, and banned the selling of alcohol on the Lord's Day in 1703, including the sale of alcohol from Bum boats, which plied their trade between the ships and the shore. He also pasted Queen Anne's proclamation for suppressing vice and immorality on the doors of the public houses.[^ref24]
