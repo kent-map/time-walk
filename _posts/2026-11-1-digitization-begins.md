@@ -5,10 +5,10 @@ author:
 date: 2026-01-01
 categories: [ project ]
 tags: [ project, Deal, Sandwich ]
-published: false
-featured: false
+published: true
+featured: true
 media_subpath: /assets/img
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/7/7a/Sandwich_%26_River_Stour.jpg
   path: 
   alt: 
 ---
@@ -22,7 +22,11 @@ In Deal, volunteers Stuart, Grace, Adam, Charlotte and Rosie have digitized twen
 
 {% include embed/image.html src="wc:A Good Catch of Sprats.jpg" aspect="0.785" caption="A Good Catch of Sprats" %}
 
+At Ramsgate, the volunteers are focusing on objects in the collection and have photographed two of the objects which you can see [here](https://commons.wikimedia.org/w/index.php?search=%22Let%27s+Do+The+Time+Walk+Again%22+Ramsgate&title=Special%3AMediaSearch&type=image) J.M. has also researched the ship and their article can be read here.
+<br><br>
 At the Canterbury hub, volunteers have received training from the digital officers and practiced creating articles such as A Week’s Tramp in Dickens Land.
+
+{% include embed/image.html src="wc:The ships bell of the Northern Belle - from the Ramsgate maritime collection.jpg" aspect="0.785" caption="The Northern Belle" %}
 
 ### References
 
