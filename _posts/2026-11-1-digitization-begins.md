@@ -9,8 +9,7 @@ published: true
 featured: true
 media_subpath: /assets/img
 image: https://upload.wikimedia.org/wikipedia/commons/7/7a/Sandwich_%26_River_Stour.jpg
-  path: 
-  alt: 
+permalink: /project/digitization-begins/
 ---
 
 Deal and Sandwich museums have focussed on under-utilized postcard collections as part of their digitisation programme. At Sandwich volunteers Lauren, Paige, Anna and Rosie have catalogued and digitized thirty-six postcards of churches and other public buildings such as The Barbican which you can see [here](https://commons.wikimedia.org/w/index.php?search=%22Let%27s+do+the+time+walk+again%22+sandwich&title=Special%3AMediaSearch&type=image). Now the story-telling and mapping phase begins as the volunteers think about how they want to use these postcards to tell the story of Sandwich.
@@ -24,7 +23,7 @@ In Deal, volunteers Stuart, Grace, Adam, Charlotte and Rosie have digitized twen
 
 At Ramsgate, the volunteers are focusing on objects in the collection and have photographed two of the objects which you can see [here](https://commons.wikimedia.org/w/index.php?search=%22Let%27s+Do+The+Time+Walk+Again%22+Ramsgate&title=Special%3AMediaSearch&type=image) J.M. has also researched the ship and their article can be read here.
 <br><br>
-At the Canterbury hub, volunteers have received training from the digital officers and practiced creating articles such as A Week’s Tramp in Dickens Land.
+At the Canterbury hub, volunteers have received training from the digital officers and practiced creating articles such as [A Week’s Tramp in Dickens Land]({{ site.baseurl }}/dickens/broadstairs).
 
 {% include embed/image.html src="wc:The ships bell of the Northern Belle - from the Ramsgate maritime collection.jpg" aspect="0.785" caption="The Northern Belle" %}
 
