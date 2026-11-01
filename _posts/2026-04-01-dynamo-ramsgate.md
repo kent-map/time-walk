@@ -1,6 +1,6 @@
 ---
 title: "Dynamo: The Spirit of Ramsgate"
-description: The project is launched with a Lightshow to commemorate the Dunkirk Evacuation. 
+description: The project is launched with a lightshow to commemorate the Dunkirk Evacuation. 
 author: Dr Michelle Crowther
 date: 2026-04-01
 categories: [ Ramsgate ]
