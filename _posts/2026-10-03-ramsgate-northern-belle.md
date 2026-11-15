@@ -4,7 +4,7 @@ description: An article about the Northern Belle rescue of 1857
 author: JM – Ramsgate Clock House Volunteer
 date: 2026-01-01
 categories: [ Ramsgate ]
-tags: [ shipwrecks ]
+tags: [ Ramsgate, shipwrecks ]
 published: true
 featured: false
 image: https://upload.wikimedia.org/wikipedia/commons/b/bf/The_lifeboat_paraded_through_Broadstairs_after_the_rescue_-_illustration_from_the_Dickens_House_Museum_collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
