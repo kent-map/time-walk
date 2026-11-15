@@ -1,10 +1,29 @@
-WE all know the plot of Charles Dickens’ A Christmas Carol. Miserly Ebeneezer Scrooge is haunted 
+---
+title: A Christmas Carol and Broadstairs
+description: 
+author: Ken Nicholls
+date: 2026-11-15
+categories: [ Broadstairs ]
+tags: [ ]
+published: false
+featured: false
+media_subpath: /assets/img
+image: https://upload.wikimedia.org/wikipedia/commons/a/a9/A_Christmas_Carol-Rackham-183.jpg
+  path: 
+  alt: 
+---
+
+We all know the plot of Charles Dickens’ _A Christmas Carol_. Miserly Ebeneezer Scrooge is haunted 
 by the ghost of his old business partner Jacob Marley and the three spirits of Christmas. The 
 visions they reveal are so disturbing that he renounces his wicked past and, among other acts of 
 generosity, lavishes a giant turkey on his overworked and underpaid clerk Bob Cratchit and 
 becomes a second father to the man’s disabled son Tiny Tim. 
+<br><br>
 But few will be aware that the first glimmer of this Yuletide morality tale came to the 
-author during a family holiday he spent in BROADSTAIRS in the summer of 1843.  
+author during a family holiday he spent in Broadstairs in the summer of 1843. 
+
+
+
 Writing from there to a friend on September 1, he revealed he’d had a strange dream whilst 
 sleeping in his holiday home, now part of the Royal Albion Hotel. He confided: ‘I dreamed that 
 somebody was dead . . . and I was greatly overcome when the news was broken to me (very 
