@@ -5,9 +5,9 @@ author: Ken Nicholls
 date: 2026-11-15
 categories: [ Broadstairs ]
 tags: [ ]
+permalink: /broadstairs/a-christmas-carol
 published: false
 featured: false
-
 image: wc:A Christmas Carol-Rackham-183.jpg
 ---
 
@@ -20,7 +20,7 @@ becomes a second father to the man’s disabled son Tiny Tim.
 But few will be aware that the first glimmer of this Yuletide morality tale came to the 
 author during a family holiday he spent in Broadstairs in the summer of 1843. 
 
-{% include embed/image.html src="wc:The_Promenade%2C_Deal%2C_England-LCCN2002696655.jpg" %}
+{% include embed/image.html src="wc:A Christmas Carol-Rackham-093.jpg" %}
 
 
 Writing from there to a friend on September 1, he revealed he’d had a strange dream whilst 
