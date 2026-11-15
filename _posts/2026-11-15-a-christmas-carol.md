@@ -4,7 +4,7 @@ description:
 author: Ken Nicholls
 date: 2026-11-15
 categories: [ Broadstairs ]
-tags: [ ]
+tags: [ Broadstairs, Literary tourism ]
 permalink: /broadstairs/a-christmas-carol
 published: false
 featured: false
