@@ -7,10 +7,8 @@ categories: [ Broadstairs ]
 tags: [ ]
 published: false
 featured: false
-media_subpath: /assets/img
-image: https://upload.wikimedia.org/wikipedia/commons/a/a9/A_Christmas_Carol-Rackham-183.jpg
-  path: 
-  alt: 
+
+image: wc:A Christmas Carol-Rackham-183.jpg
 ---
 
 We all know the plot of Charles Dickens’ _A Christmas Carol_. Miserly Ebeneezer Scrooge is haunted 
@@ -22,6 +20,7 @@ becomes a second father to the man’s disabled son Tiny Tim.
 But few will be aware that the first glimmer of this Yuletide morality tale came to the 
 author during a family holiday he spent in Broadstairs in the summer of 1843. 
 
+{% include embed/image.html src="wc:The_Promenade%2C_Deal%2C_England-LCCN2002696655.jpg" %}
 
 
 Writing from there to a friend on September 1, he revealed he’d had a strange dream whilst 
