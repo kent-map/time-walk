@@ -21,7 +21,7 @@ In Deal, volunteers Stuart, Grace, Adam, Charlotte and Rosie have digitized twen
 
 {% include embed/image.html src="wc:A Good Catch of Sprats.jpg" aspect="0.785" caption="A Good Catch of Sprats" %}
 
-At Ramsgate, the volunteers are focusing on objects in the collection and have photographed two of the objects which you can see [here](https://commons.wikimedia.org/w/index.php?search=%22Let%27s+Do+The+Time+Walk+Again%22+Ramsgate&title=Special%3AMediaSearch&type=image) J.M. has also researched the ship and their article can be read here.
+At Ramsgate, the volunteers are focusing on objects in the collection and have photographed two of the objects which you can see [here](https://commons.wikimedia.org/w/index.php?search=%22Let%27s+Do+The+Time+Walk+Again%22+Ramsgate&title=Special%3AMediaSearch&type=image) J.M. has also researched the ship and their article can be read [here]({{ site.baseurl }}/https://kent-map.github.io/time-walk/project/ramsgate-northern-belle/)here.
 <br><br>
 At the Canterbury hub, volunteers have received training from the digital officers and practiced creating articles such as [A Week’s Tramp in Dickens Land]({{ site.baseurl }}/dickens/broadstairs).
 
