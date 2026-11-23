@@ -2,7 +2,7 @@
 title: Volunteers begin digitizing content
 description: 
 author: Time Walk
-date: 2026-01-01
+date: 2026-11-01
 categories: [ project ]
 tags: [ project, Deal, Sandwich ]
 published: true
