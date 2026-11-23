@@ -50,21 +50,22 @@ Dickens finished the tale in just six weeks. It was delivered to booksellers on 
 and its first run had sold out by Christmas Eve. Dickens was ecstatic and threw himself into his 
 own festive celebrations. In a letter written on January 2, 1844, he described his Christmas and 
 New Year as: ‘Such dinings, such dancings, such blindman’s-buffings, such theatre-goings, such 
-kissings-out of old years and kissings-in of new ones . . .’ 
-
-{% include embed/image.html src="wc:'Scrooge and the Ghost of Marley' by Arthur Rackham.jpg" %}
-
+kissings-out of old years and kissings-in of new ones . . .’
+<br><br>
 It is over 175 years since Dickens wrote _A Christmas Carol_ but its positive message of 
 redemption, with Scrooge renouncing greed and selfishness and embracing compassion and 
 generosity, still resonates today. And just think – this timeless story, which has become a literary 
 classic, first came blinking into the light . . . in Broadstairs. 
-<br><br>
+
+{% include embed/image.html src="wc:'Scrooge and the Ghost of Marley' by Arthur Rackham.jpg" %}
+
 I will leave it to Charles Dickens, through the warming words of his characters Bob Cratchit 
 and Tiny Tim, to send seasonal greetings to members of the Broadstairs Dickens Fellowship, their 
 families and friends.
 <br><br>
 Bob: ‘Merry Christmas to us all, my dears. God bless us!’ Tiny Tim: ‘God bless everyone!’
+<br><br>
+This article originally appeared in Broadstairs Dickens Fellowship newsletter, September 2019.
 
 {% include embed/image.html src="wc:Bob Cratchit and Tiny Tim, Charles Dickens Mosaics, Broadstairs, January 2022.jpg" %}
 
-This article originally appeared in Broadstairs Dickens Fellowship newsletter, September 2019.
