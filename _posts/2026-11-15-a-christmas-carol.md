@@ -8,7 +8,7 @@ tags: [ Broadstairs, Literary tourism ]
 permalink: /broadstairs/a-christmas-carol
 published: true
 featured: false
-image: wc:A Christmas Carol-Rackham-183.jpg
+image: wc:Victorian Christmas postcard by Raphael Tuck & Sons.jpg
 ---
 
 We all know the plot of Charles Dickens’ _A Christmas Carol_. Miserly Ebeneezer Scrooge is haunted 
