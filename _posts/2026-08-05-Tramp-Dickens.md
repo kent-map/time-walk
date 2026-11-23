@@ -4,7 +4,7 @@ description: From the original 1891 text.
 author: William R. Hughes
 date: 2026-08-05
 categories: [ Broadstairs ]
-tags: [ Literary Tourism ]
+tags: [ Literary tourism ]
 published: true
 featured: false
 media_subpath: /assets/img
