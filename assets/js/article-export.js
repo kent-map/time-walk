@@ -54,6 +54,8 @@
       date: root.dataset.date || '',
       sourceUrl: ['http:', 'https:'].includes(location.protocol) ? currentSource.href : (configuredSource?.href || location.href.split('#')[0]),
       heroUrl: root.dataset.heroUrl || '',
+      siteName: root.dataset.siteName || '',
+      siteUrl: root.dataset.siteUrl || location.origin,
       jszipSrc: root.dataset.jszipSrc,
       jszipIntegrity: root.dataset.jszipIntegrity
     };
@@ -139,6 +141,7 @@
     if (iframe.classList.contains('embed-map')) return 'Interactive map';
     if (iframe.classList.contains('embed-youtube')) return 'Video';
     if (iframe.classList.contains('embed-vimeo')) return 'Video';
+    if (iframe.classList.contains('embed-audio')) return 'Audio recording';
     if (iframe.classList.contains('embed-vis-network')) return 'Interactive network';
     if (iframe.classList.contains('embed-image-compare')) return 'Interactive image comparison';
     if (iframe.classList.contains('embed-image')) return 'Interactive image';
@@ -169,7 +172,9 @@
   function frameCaption(sourceFrame, frameUrl, fallback) {
     try {
       const caption = sourceFrame.contentDocument?.querySelector('.caption-text, figcaption');
-      const rendered = (caption?.innerText || caption?.textContent)?.replace(/\s+/g, ' ').trim();
+      // Keep the viewer's own line breaks (caption, then source/credit) as separate lines.
+      const rendered = (caption?.innerText || caption?.textContent || '')
+        .split(/\n+/).map((line) => line.replace(/\s+/g, ' ').trim()).filter(Boolean).join('\n');
       if (rendered) return rendered;
     } catch (_) {
       // Cross-origin frames fall back to their URL parameters or label.
@@ -372,11 +377,14 @@
       image.className = 'article-export-image';
       image.src = imageUrl;
       const captionText = frameCaption(sourceFrame, frameUrl, label);
-      image.alt = captionText;
+      image.alt = captionText.replace(/\n/g, ' ');
       image.loading = 'eager';
       figure.appendChild(image);
       const caption = document.createElement('figcaption');
-      caption.append(captionText);
+      captionText.split('\n').forEach((line, index) => {
+        if (index) caption.appendChild(document.createElement('br'));
+        caption.append(line);
+      });
       if (mapImage) {
         appendOnlineLink(caption, sourceFrame, config, 'Open the interactive map online.');
         if (mapImage.attribution) {
@@ -484,6 +492,11 @@
       }
     });
     flattenGroupedEmbeds(clone);
+    // Links within this site print as plain links; only external URLs are spelled out.
+    clone.querySelectorAll('a[href]').forEach((link) => {
+      const target = safeUrl(link.getAttribute('href'));
+      if (target && target.origin === location.origin) link.classList.add('article-export-site-link');
+    });
     return clone;
   }
 
@@ -525,6 +538,10 @@
     source.appendChild(sourceLink);
     header.appendChild(source);
     sheet.appendChild(header);
+
+    const pageUrl = config.sourceUrl.replace(/^https?:\/\//, '').replace(/\/$/, '');
+    const footerText = `${config.siteName || location.hostname}  |  ${pageUrl}`;
+    document.documentElement.style.setProperty('--article-export-footer', JSON.stringify(footerText));
 
     const hero = renderedHero(config);
     if (hero) sheet.appendChild(hero);
@@ -964,8 +981,32 @@
     }
   }
 
+  // Browser Print (Ctrl/Cmd+P) should produce the same publication-style PDF as the
+  // download menu. Preparing the sheet is asynchronous (maps, viewers, images), so the
+  // shortcut is intercepted, the sheet is prepared, and then the print dialog opens.
+  // Printing from the browser menu cannot be intercepted; it reuses a sheet already
+  // prepared by an earlier export on this page and otherwise prints the page as-is.
+  function interceptBrowserPrint() {
+    const root = document.querySelector('[data-article-export]');
+    if (!root) return;
+    window.addEventListener('keydown', (event) => {
+      const isPrint = (event.ctrlKey || event.metaKey) && !event.altKey && !event.shiftKey &&
+        event.key.toLowerCase() === 'p';
+      if (!isPrint || event.defaultPrevented || root.classList.contains('is-busy')) return;
+      event.preventDefault();
+      exportPdf(configFor(root)).catch((error) => {
+        setStatus(configFor(root), error.message || 'The PDF could not be prepared.', 6000);
+        window.print();
+      });
+    });
+    window.addEventListener('beforeprint', () => {
+      if (document.querySelector('.article-print-sheet')) document.body.classList.add('article-export-printing');
+    });
+  }
+
   window.EntrelumaArticleExport = { buildPrintSheet, exportPdf, createDocx, preparedArticle };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAll, { once: true });
   else initAll();
+  interceptBrowserPrint();
   window.addEventListener('afterprint', () => document.body.classList.remove('article-export-printing'));
 })();
