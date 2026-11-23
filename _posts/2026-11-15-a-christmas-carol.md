@@ -62,7 +62,6 @@ and Tiny Tim, to send seasonal greetings to members of the Broadstairs Dickens F
 families and friends.
 <br><br>
 Bob: ‘Merry Christmas to us all, my dears. God bless us!’ Tiny Tim: ‘God bless everyone!’
-<br><br>
 
 {% include embed/image.html src="wc:'Scrooge and the Ghost of Marley' by Arthur Rackham.jpg" %}
 
