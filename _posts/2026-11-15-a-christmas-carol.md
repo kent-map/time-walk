@@ -56,16 +56,14 @@ It is over 175 years since Dickens wrote _A Christmas Carol_ but its positive me
 redemption, with Scrooge renouncing greed and selfishness and embracing compassion and 
 generosity, still resonates today. And just think – this timeless story, which has become a literary 
 classic, first came blinking into the light . . . in Broadstairs. 
-
-{% include embed/image.html src="wc:'Scrooge and the Ghost of Marley' by Arthur Rackham.jpg" %}
-
+<br><br>
 I will leave it to Charles Dickens, through the warming words of his characters Bob Cratchit 
 and Tiny Tim, to send seasonal greetings to members of the Broadstairs Dickens Fellowship, their 
 families and friends.
 <br><br>
 Bob: ‘Merry Christmas to us all, my dears. God bless us!’ Tiny Tim: ‘God bless everyone!’
 <br><br>
+
+{% include embed/image.html src="wc:'Scrooge and the Ghost of Marley' by Arthur Rackham.jpg" %}
+
 This article originally appeared in Broadstairs Dickens Fellowship newsletter, September 2019.
-
-{% include embed/image.html src="wc:Bob Cratchit and Tiny Tim, Charles Dickens Mosaics, Broadstairs, January 2022.jpg" %}
-
