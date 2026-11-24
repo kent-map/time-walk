@@ -1,7 +1,7 @@
 ---
 title: A Christmas Carol and Broadstairs
 description: A strange dream becomes an all-time classic.
-author: Ken Nicholls
+author: Ken Nickoll
 date: 2026-11-15
 categories: [ Broadstairs ]
 tags: [ Broadstairs, Literary tourism ]
